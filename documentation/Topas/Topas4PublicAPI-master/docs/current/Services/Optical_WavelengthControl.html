@@ -1,0 +1,731 @@
+<html><head>
+            		<!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            		<link rel="stylesheet" type="text/css" href="..\assets\CommonStyle.css"></head>
+            		
+            		<body>
+                <div id="content">
+
+                    <div id="container" style="width:100%;">
+
+                        <div id="MainMethodsMenu" class="MainMethodsMenu"><div class="MainMethodsMenuItem"><a href="#/OpticalSystemData"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">OpticalSystemData</div></div><div class="MainMethodsMenuItem"><a href="#/Output/Wavelength"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">Output/Wavelength</div></div><div class="MainMethodsMenuItem"><a href="#/Output/Interaction"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">Output/Interaction</div></div><div class="MainMethodsMenuItem"><a href="#/Output"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">Output</div></div><div class="MainMethodsMenuItem"><a href="#/ExpandedInteractions"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">ExpandedInteractions</div></div><div class="MainMethodsMenuItem"><a href="#/FinishWavelengthSettingAfterUserActions"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">FinishWavelengthSettingAfterUserActions</div></div><div class="MainMethodsMenuItem"><a href="#/SetWavelength"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">SetWavelength</div></div><div class="MainMethodsMenuItem"><a href="#/SetWavelengthUsingAnyInteraction"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">SetWavelengthUsingAnyInteraction</div></div><div class="MainMethodsMenuItem"><a href="#/PossibleOutputsForWavelength"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">PossibleOutputsForWavelength</div></div></div>
+
+                        <div id="MethodsSubPage" class="MethodsSubPage"><p><a id="/OpticalSystemData"></a><p class="Uri Badge_get">/OpticalSystemData</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets information about current and last set wavelength and some additional info.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "OpticalSystemConfHash": "high",
+  "Output": {
+    "ActualInteraction": "NON",
+    "IdlerWavelength": -1,
+    "Interaction": "NON",
+    "IsForBackgroundMeasurement": false,
+    "IsUserActionCompleted": false,
+    "IsWaitingForUserAction": false,
+    "IsWavelengthSettingInProgress": true,
+    "IsWavelengthStrict": false,
+    "Messages": [
+      {
+        "Image": "shorts",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 17,
+        "SeparationDeviceIndex": 44,
+        "Text": "fact"
+      },
+      {
+        "Image": "pour-over",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 39,
+        "SeparationDeviceIndex": 15,
+        "Text": "ethical"
+      }
+    ],
+    "MotorPositions": [
+      {
+        "Key": 237,
+        "Value": 59.727625483520157
+      },
+      {
+        "Key": 4,
+        "Value": 803.57052050697177
+      }
+    ],
+    "OpticalDeviceOutputs": [
+      {
+        "Key": 209,
+        "Value": 361.76872968756066
+      },
+      {
+        "Key": 267,
+        "Value": 24.317816376834092
+      }
+    ],
+    "OtherDevicesOutputs": [
+      {
+        "Key": "234c9598",
+        "Value": 930.29675536337152
+      },
+      {
+        "Key": "d1c0d2cf",
+        "Value": 122.81199876349979
+      }
+    ],
+    "SignalWavelength": -1,
+    "Wavelength": -1,
+    "WavelengthSettingCompletionPart": 0
+  },
+  "PreviousOutput": {
+    "ActualInteraction": "NON",
+    "IdlerWavelength": -1,
+    "Interaction": "NON",
+    "IsForBackgroundMeasurement": false,
+    "IsUserActionCompleted": false,
+    "IsWaitingForUserAction": false,
+    "IsWavelengthSettingInProgress": true,
+    "IsWavelengthStrict": false,
+    "Messages": [
+      {
+        "Image": "stumptown",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 24,
+        "SeparationDeviceIndex": 87,
+        "Text": "bushwick"
+      },
+      {
+        "Image": "cleanse",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 26,
+        "SeparationDeviceIndex": 19,
+        "Text": "truffaut"
+      }
+    ],
+    "MotorPositions": [
+      {
+        "Key": 257,
+        "Value": 595.34301589957579
+      },
+      {
+        "Key": 155,
+        "Value": 683.75583863060729
+      }
+    ],
+    "OpticalDeviceOutputs": [
+      {
+        "Key": 122,
+        "Value": 487.00992320059328
+      },
+      {
+        "Key": 218,
+        "Value": 78.364958557470217
+      }
+    ],
+    "OtherDevicesOutputs": [
+      {
+        "Key": "7a6c3be7",
+        "Value": 752.39467516187335
+      },
+      {
+        "Key": "5ec8b039",
+        "Value": 117.93375672676309
+      }
+    ],
+    "SignalWavelength": -1,
+    "Wavelength": -1,
+    "WavelengthSettingCompletionPart": 0
+  },
+  "SeparationSystemConfHash": "dreamcatcher",
+  "StateHash": "Arizona",
+  "WavelengthChangeMessages": [
+    {
+      "Image": "jean",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 56,
+      "SeparationDeviceIndex": 92,
+      "Text": "they"
+    },
+    {
+      "Image": "ennui",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 50,
+      "SeparationDeviceIndex": 4,
+      "Text": "ennui"
+    }
+  ]
+}</pre></p></p><p><a id="/Output/Wavelength"></a><p class="Uri Badge_get">/Output/Wavelength</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets current output wavelength. If wavelength setting is in progress returns target wavelength.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">504.9611588497466</pre></p></p><p><a id="/Output/Interaction"></a><p class="Uri Badge_get">/Output/Interaction</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets current output interaction string. If wavelength setting is in progress returns target wavelengths interaction.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">"39d1f967"</pre></p></p><p><a id="/Output"></a><p class="Uri Badge_get">/Output</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets current output information (wavelength, interaction, calculated motor positions and so on).</p>
+<h4 id="returned-properties">Returned properties</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Interaction</td>
+<td style="text-align: center;">Currently used interaction. NON if wavelength is not set.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Wavelength</td>
+<td style="text-align: center;">Currently set wavelength. -1 if wavelength is not set.</td>
+</tr>
+<tr>
+<td style="text-align: center;">IsWavelengthStrict</td>
+<td style="text-align: center;">True if all motors positions match calibration exactly.</td>
+</tr>
+<tr>
+<td style="text-align: center;">IsWavelengthSettingInProgress</td>
+<td style="text-align: center;">True if wavelength is being set now. This includes both motor movement and user actions (if any).</td>
+</tr>
+<tr>
+<td style="text-align: center;">WavelengthSettingCompletionPart</td>
+<td style="text-align: center;">If IsWavelengthSettingInProgress==true indicates completion of motor movement. Range is 0-1.0.</td>
+</tr>
+<tr>
+<td style="text-align: center;">IsWaitingForUserAction</td>
+<td style="text-align: center;">True if motors have been moved to their target positions and user has to perform manual operations. Call /FinishWavelengthSettingAfterUserActions after these operations are completed by user.</td>
+</tr>
+<tr>
+<td style="text-align: center;">IsUserActionCompleted</td>
+<td style="text-align: center;">True if required user operations have been completed and confirmed bu user (using /FinishWavelengthSettingAfterUserActions).</td>
+</tr>
+<tr>
+<td style="text-align: center;">Messages</td>
+<td style="text-align: center;">Messages with instructions/images to user.</td>
+</tr>
+</tbody>
+</table>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "ActualInteraction": "NON",
+  "IdlerWavelength": -1,
+  "Interaction": "NON",
+  "IsForBackgroundMeasurement": false,
+  "IsUserActionCompleted": false,
+  "IsWaitingForUserAction": false,
+  "IsWavelengthSettingInProgress": true,
+  "IsWavelengthStrict": false,
+  "Messages": [
+    {
+      "Image": "heard",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 73,
+      "SeparationDeviceIndex": 64,
+      "Text": "retro"
+    },
+    {
+      "Image": "locavore",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 93,
+      "SeparationDeviceIndex": 38,
+      "Text": "Tofu"
+    }
+  ],
+  "MotorPositions": [
+    {
+      "Key": 239,
+      "Value": 789.534831787243
+    },
+    {
+      "Key": 207,
+      "Value": 298.07990756727747
+    }
+  ],
+  "OpticalDeviceOutputs": [
+    {
+      "Key": 11,
+      "Value": 855.35658935800041
+    },
+    {
+      "Key": 247,
+      "Value": 748.47648700162608
+    }
+  ],
+  "OtherDevicesOutputs": [
+    {
+      "Key": "ab6d576a",
+      "Value": 679.40537430318329
+    },
+    {
+      "Key": "ac795f58",
+      "Value": 841.3278124487623
+    }
+  ],
+  "SignalWavelength": -1,
+  "Wavelength": -1,
+  "WavelengthSettingCompletionPart": 0
+}</pre></p></p><p><a id="/ExpandedInteractions"></a><p class="Uri Badge_get">/ExpandedInteractions</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets all interactions with their calibration ranges in current optical configuration expanded to simple representation.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">[
+  {
+    "BaseType": "NON",
+    "CanMeasureBackground": false,
+    "OutputRange": {
+      "From": 0,
+      "To": 0
+    },
+    "Type": "NON"
+  },
+  {
+    "BaseType": "NON",
+    "CanMeasureBackground": false,
+    "OutputRange": {
+      "From": 0,
+      "To": 0
+    },
+    "Type": "NON"
+  }
+]</pre></p></p><p><a id="/FinishWavelengthSettingAfterUserActions"></a><p class="Uri Badge_put">/FinishWavelengthSettingAfterUserActions</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Client application should call this method after wavelength has been set and user's manual operations are completed.
+This method needs to be called only if setting wavelength required actions by user.</p>
+<h4 id="parameters">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Parameter</th>
+<th style="text-align: center;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">RestoreShutter</td>
+<td style="text-align: center;">If set to true and shutter was open before setting wavelength it will be opened again.</td>
+</tr>
+</tbody>
+</table>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">{
+  "RestoreShutter": false
+}</pre></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">false</pre></p></p><p><a id="/SetWavelength"></a><p class="Uri Badge_put">/SetWavelength</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets new wavelength.</p>
+<h4 id="parameters">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Parameter</th>
+<th style="text-align: center;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Interaction</strong></td>
+<td style="text-align: center;">Simple interaction string (SH-SIG) or expandable (#-SIG). Use * to match use all interactions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Wavelength</strong></td>
+<td style="text-align: center;">Wavelength to set in nanometers.</td>
+</tr>
+<tr>
+<td style="text-align: center;">IgnoreSeparation</td>
+<td style="text-align: center;">If set to true separation configuration won't be used (includes both motors and messages).</td>
+</tr>
+<tr>
+<td style="text-align: center;">DontTouchShutterOnInteractionChange</td>
+<td style="text-align: center;">Leaves shutter opened while setting wavelength, unless there are new messages to user.</td>
+</tr>
+<tr>
+<td style="text-align: center;">SetForBackground</td>
+<td style="text-align: center;">If set to true position of one motor is modified as configured in calibration to measure background radiation power.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Priorities</td>
+<td style="text-align: center;">(Can be ignored if Interaction is in in simple representation.) Priorities will be used to select interaction if there are more than one way to set wavelength using supplied Interaction.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returned-properties">Returned properties</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>IsSuccess</strong></td>
+<td style="text-align: center;">True if requested wavelength can be set.</td>
+</tr>
+<tr>
+<td style="text-align: center;">ErrorMessage</td>
+<td style="text-align: center;">If IsSuccess is false, contains reason why wavelength can not be set.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Messages</td>
+<td style="text-align: center;">All messages for user. New messages (compared with previous output) have property IsNew set to true.</td>
+</tr>
+<tr>
+<td style="text-align: center;">WillRequireUserActions</td>
+<td style="text-align: center;">True if user will have to perform manual operations after motors are in positons for requested wavelength.</td>
+</tr>
+</tbody>
+</table>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">{
+  "DontTouchShutterOnInteractionChange": false,
+  "IgnoreSeparation": false,
+  "SetForBackground": false,
+  "Wavelength": 0,
+  "Interaction": "pour-over",
+  "Priorities": [
+    {
+      "Priority": 51,
+      "Type": "Brooklyn"
+    },
+    {
+      "Priority": 93,
+      "Type": "pork"
+    }
+  ]
+}</pre></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "ActualInteraction": "",
+  "ErrorMessage": "",
+  "FailedAfterInteractionSelection": false,
+  "IdlerWavelength": 0,
+  "Interaction": "",
+  "IsForBackgroundMeasurement": false,
+  "IsSuccess": true,
+  "Messages": [
+    {
+      "Image": "richardson",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 8,
+      "SeparationDeviceIndex": 20,
+      "Text": "freegan"
+    },
+    {
+      "Image": "echo",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 17,
+      "SeparationDeviceIndex": 60,
+      "Text": "hand"
+    }
+  ],
+  "MotorPositions": [
+    {
+      "Key": 74,
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 31,
+        "DecidedBy": 0
+      }
+    },
+    {
+      "Key": 250,
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 22,
+        "DecidedBy": 0
+      }
+    }
+  ],
+  "OpticalDeviceOutputs": [
+    {
+      "Key": 249,
+      "Value": 109.55629083772948
+    },
+    {
+      "Key": 130,
+      "Value": 530.96405720848782
+    }
+  ],
+  "OtherOpticalDevicesOutputs": [
+    {
+      "Key": "17e5537a",
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 56,
+        "Interaction": "government"
+      }
+    },
+    {
+      "Key": "5eeef0fa",
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 60,
+        "Interaction": "man"
+      }
+    }
+  ],
+  "Output": 0,
+  "PumpWavelength": 0,
+  "SignalWavelength": 0
+}</pre></p></p><p><a id="/SetWavelengthUsingAnyInteraction"></a><p class="Uri Badge_put">/SetWavelengthUsingAnyInteraction</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets new wavelength. Any of the possible interactions that support this wavelength will be used. If you need extra options use method SetWavelength.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">761.64771791624264</pre></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "ActualInteraction": "",
+  "ErrorMessage": "",
+  "FailedAfterInteractionSelection": false,
+  "IdlerWavelength": 0,
+  "Interaction": "",
+  "IsForBackgroundMeasurement": false,
+  "IsSuccess": true,
+  "Messages": [
+    {
+      "Image": "Brooklyn",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 29,
+      "SeparationDeviceIndex": 87,
+      "Text": "food"
+    },
+    {
+      "Image": "child",
+      "IsCritical": false,
+      "IsNew": false,
+      "MessengerIndex": 61,
+      "SeparationDeviceIndex": 10,
+      "Text": "future"
+    }
+  ],
+  "MotorPositions": [
+    {
+      "Key": 143,
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 23,
+        "DecidedBy": 0
+      }
+    },
+    {
+      "Key": 18,
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 35,
+        "DecidedBy": 0
+      }
+    }
+  ],
+  "OpticalDeviceOutputs": [
+    {
+      "Key": 28,
+      "Value": 488.1473302320332
+    },
+    {
+      "Key": 53,
+      "Value": 20.872750329260132
+    }
+  ],
+  "OtherOpticalDevicesOutputs": [
+    {
+      "Key": "e0e1923b",
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 24,
+        "Interaction": "Lomo"
+      }
+    },
+    {
+      "Key": "6056cba4",
+      "Value": {
+        "ConflictOption": 0,
+        "IsPositionInSteps": false,
+        "Position": 0,
+        "Priority": 10,
+        "Interaction": "pickled"
+      }
+    }
+  ],
+  "Output": 0,
+  "PumpWavelength": 0,
+  "SignalWavelength": 0
+}</pre></p></p><p><a id="/PossibleOutputsForWavelength"></a><p class="Uri Badge_post">/PossibleOutputsForWavelength</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Gets all possible ways to set specific wavelength.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">376.27190136177086</pre></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">[
+  {
+    "ActualInteraction": "",
+    "ErrorMessage": "",
+    "FailedAfterInteractionSelection": false,
+    "IdlerWavelength": 0,
+    "Interaction": "",
+    "IsForBackgroundMeasurement": false,
+    "IsSuccess": true,
+    "Messages": [
+      {
+        "Image": "DIY",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 20,
+        "SeparationDeviceIndex": 89,
+        "Text": "Umami"
+      },
+      {
+        "Image": "womn",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 43,
+        "SeparationDeviceIndex": 86,
+        "Text": "sweater"
+      }
+    ],
+    "MotorPositions": [
+      {
+        "Key": 136,
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 50,
+          "DecidedBy": 0
+        }
+      },
+      {
+        "Key": 290,
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 78,
+          "DecidedBy": 0
+        }
+      }
+    ],
+    "OpticalDeviceOutputs": [
+      {
+        "Key": 100,
+        "Value": 962.24270805820947
+      },
+      {
+        "Key": 139,
+        "Value": 290.94555102798415
+      }
+    ],
+    "OtherOpticalDevicesOutputs": [
+      {
+        "Key": "845d8615",
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 18,
+          "Interaction": "jean"
+        }
+      },
+      {
+        "Key": "455b6b98",
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 86,
+          "Interaction": "semiotics"
+        }
+      }
+    ],
+    "Output": 0,
+    "PumpWavelength": 0,
+    "SignalWavelength": 0
+  },
+  {
+    "ActualInteraction": "",
+    "ErrorMessage": "",
+    "FailedAfterInteractionSelection": false,
+    "IdlerWavelength": 0,
+    "Interaction": "",
+    "IsForBackgroundMeasurement": false,
+    "IsSuccess": true,
+    "Messages": [
+      {
+        "Image": "dreamcatcher",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 82,
+        "SeparationDeviceIndex": 98,
+        "Text": "wayfarers"
+      },
+      {
+        "Image": "organic",
+        "IsCritical": false,
+        "IsNew": false,
+        "MessengerIndex": 60,
+        "SeparationDeviceIndex": 5,
+        "Text": "life"
+      }
+    ],
+    "MotorPositions": [
+      {
+        "Key": 257,
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 60,
+          "DecidedBy": 0
+        }
+      },
+      {
+        "Key": 242,
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 50,
+          "DecidedBy": 0
+        }
+      }
+    ],
+    "OpticalDeviceOutputs": [
+      {
+        "Key": 75,
+        "Value": 268.41090306100011
+      },
+      {
+        "Key": 43,
+        "Value": 282.50201897812173
+      }
+    ],
+    "OtherOpticalDevicesOutputs": [
+      {
+        "Key": "22370393",
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 9,
+          "Interaction": "denim"
+        }
+      },
+      {
+        "Key": "e267d433",
+        "Value": {
+          "ConflictOption": 0,
+          "IsPositionInSteps": false,
+          "Position": 0,
+          "Priority": 24,
+          "Interaction": "before"
+        }
+      }
+    ],
+    "Output": 0,
+    "PumpWavelength": 0,
+    "SignalWavelength": 0
+  }
+]</pre></p></p></div> 
+
+                    </div>  
+
+                </div>
+            </body>
+
+            		</html>

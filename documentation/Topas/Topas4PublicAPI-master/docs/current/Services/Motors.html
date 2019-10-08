@@ -1,0 +1,251 @@
+<html><head>
+            		<!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            		<link rel="stylesheet" type="text/css" href="..\assets\CommonStyle.css"></head>
+            		
+            		<body>
+                <div id="content">
+
+                    <div id="container" style="width:100%;">
+
+                        <div id="MainMethodsMenu" class="MainMethodsMenu"><div class="MainMethodsMenuItem"><a href="#/AllProperties"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">AllProperties</div></div><div class="MainMethodsMenuItem"><a href="#/PropertiesThatChangeOften"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">PropertiesThatChangeOften</div></div><div class="MainMethodsMenuItem"><a href="#?id={motorIndex}"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/ActualPosition?id={motorIndex}"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">ActualPosition?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/TargetPosition?id={motorIndex}"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">TargetPosition?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/ActualPositionInUnits?id={motorIndex}"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">ActualPositionInUnits?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/TargetPosition?id={motorIndex}"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">TargetPosition?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/TargetPositionRelative?id={motorIndex}"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">TargetPositionRelative?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/TargetPositionInUnits?id={motorIndex}"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">TargetPositionInUnits?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/TargetPositionInSuperUnits?id={motorIndex}"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">TargetPositionInSuperUnits?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/Stop?id={motorIndex}"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">Stop?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/StopAll"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">StopAll</div></div><div class="MainMethodsMenuItem"><a href="#/LastHomingProcedureResult?id={motorIndex}"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">LastHomingProcedureResult?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/Home?id={motorIndex}"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">Home?id={motorIndex}</div></div><div class="MainMethodsMenuItem"><a href="#/StopHoming?id={motorIndex}"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">StopHoming?id={motorIndex}</div></div></div>
+
+                        <div id="MethodsSubPage" class="MethodsSubPage"><p><a id="/AllProperties"></a><p class="Uri Badge_get">/AllProperties</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets all properties of all motors.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "Motors": [
+    {
+      "Acceleration": 25,
+      "ActualPosition": 19,
+      "ActualPositionInSuperUnits": 0,
+      "ActualPositionInUnits": 0,
+      "Affix": 0,
+      "Current": 34,
+      "Factor": 0,
+      "ForbiddenRanges": [
+        {
+          "From": 0,
+          "IsEnabled": true,
+          "To": 0
+        },
+        {
+          "From": 0,
+          "IsEnabled": true,
+          "To": 0
+        }
+      ],
+      "Index": 86,
+      "IsHoming": false,
+      "IsLeftSwitchPressed": false,
+      "IsRightSwitchPressed": false,
+      "MaximalPosition": 42,
+      "MaximalPositionInUnits": 0,
+      "MaximalVelocity": 32,
+      "MinimalPositionInUnits": 0,
+      "MinimalVelocity": 94,
+      "NamedPositions": [
+        {
+          "Name": "Untitled",
+          "Position": 17,
+          "ShortName": ""
+        },
+        {
+          "Name": "Untitled",
+          "Position": 94,
+          "ShortName": ""
+        }
+      ],
+      "PulseDivision": 26,
+      "RampDivision": 16,
+      "StepDivision": 42,
+      "SuperUnitsCalculator": {
+        "Expression": "x",
+        "ParserType": 0,
+        "UnitName": "",
+        "ValidUnitsRange": {
+          "From": -1E+300,
+          "To": 1E+300
+        }
+      },
+      "TargetPosition": 89,
+      "TargetPositionInSuperUnits": 0,
+      "TargetPositionInUnits": 0,
+      "Title": "Local High School Dropouts Cut in Half",
+      "UnitName": "year",
+      "ZeroOffset": 5
+    },
+    {
+      "Acceleration": 35,
+      "ActualPosition": 47,
+      "ActualPositionInSuperUnits": 0,
+      "ActualPositionInUnits": 0,
+      "Affix": 0,
+      "Current": 91,
+      "Factor": 0,
+      "ForbiddenRanges": [
+        {
+          "From": 0,
+          "IsEnabled": true,
+          "To": 0
+        },
+        {
+          "From": 0,
+          "IsEnabled": true,
+          "To": 0
+        }
+      ],
+      "Index": 95,
+      "IsHoming": false,
+      "IsLeftSwitchPressed": false,
+      "IsRightSwitchPressed": false,
+      "MaximalPosition": 44,
+      "MaximalPositionInUnits": 0,
+      "MaximalVelocity": 37,
+      "MinimalPositionInUnits": 0,
+      "MinimalVelocity": 19,
+      "NamedPositions": [
+        {
+          "Name": "Untitled",
+          "Position": 37,
+          "ShortName": ""
+        },
+        {
+          "Name": "Untitled",
+          "Position": 49,
+          "ShortName": ""
+        }
+      ],
+      "PulseDivision": 9,
+      "RampDivision": 95,
+      "StepDivision": 81,
+      "SuperUnitsCalculator": {
+        "Expression": "x",
+        "ParserType": 0,
+        "UnitName": "",
+        "ValidUnitsRange": {
+          "From": -1E+300,
+          "To": 1E+300
+        }
+      },
+      "TargetPosition": 19,
+      "TargetPositionInSuperUnits": 0,
+      "TargetPositionInUnits": 0,
+      "Title": "Officials Determine Crash Occured When Plane Hit the Ground",
+      "UnitName": "cosby",
+      "ZeroOffset": 53
+    }
+  ]
+}</pre></p></p><p><a id="/PropertiesThatChangeOften"></a><p class="Uri Badge_get">/PropertiesThatChangeOften</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets often-changing properties properties of all motors.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">[
+  {
+    "ActualPosition": 75,
+    "ActualPositionInSuperUnits": 0,
+    "ActualPositionInUnits": 0,
+    "Index": 38,
+    "IsHoming": false,
+    "IsLeftSwitchPressed": false,
+    "IsRightSwitchPressed": false,
+    "TargetPosition": 69,
+    "TargetPositionInSuperUnits": 0,
+    "TargetPositionInUnits": 0
+  },
+  {
+    "ActualPosition": 69,
+    "ActualPositionInSuperUnits": 0,
+    "ActualPositionInUnits": 0,
+    "Index": 23,
+    "IsHoming": false,
+    "IsLeftSwitchPressed": false,
+    "IsRightSwitchPressed": false,
+    "TargetPosition": 25,
+    "TargetPositionInSuperUnits": 0,
+    "TargetPositionInUnits": 0
+  }
+]</pre></p></p><p><a id="?id={motorIndex}"></a><p class="Uri Badge_get">?id={motorIndex}</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets all properties of specific motor. If requested motor is not found or is not available due hardware failure error code 404 is returned.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: ?id=148</p><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "Acceleration": 18,
+  "ActualPosition": 97,
+  "ActualPositionInSuperUnits": 0,
+  "ActualPositionInUnits": 0,
+  "Affix": 0,
+  "Current": 14,
+  "Factor": 0,
+  "ForbiddenRanges": [
+    {
+      "From": 0,
+      "IsEnabled": true,
+      "To": 0
+    },
+    {
+      "From": 0,
+      "IsEnabled": true,
+      "To": 0
+    }
+  ],
+  "Index": 57,
+  "IsHoming": false,
+  "IsLeftSwitchPressed": false,
+  "IsRightSwitchPressed": false,
+  "MaximalPosition": 64,
+  "MaximalPositionInUnits": 0,
+  "MaximalVelocity": 92,
+  "MinimalPositionInUnits": 0,
+  "MinimalVelocity": 4,
+  "NamedPositions": [
+    {
+      "Name": "Untitled",
+      "Position": 97,
+      "ShortName": ""
+    },
+    {
+      "Name": "Untitled",
+      "Position": 59,
+      "ShortName": ""
+    }
+  ],
+  "PulseDivision": 52,
+  "RampDivision": 68,
+  "StepDivision": 31,
+  "SuperUnitsCalculator": {
+    "Expression": "x",
+    "ParserType": 0,
+    "UnitName": "",
+    "ValidUnitsRange": {
+      "From": -1E+300,
+      "To": 1E+300
+    }
+  },
+  "TargetPosition": 26,
+  "TargetPositionInSuperUnits": 0,
+  "TargetPositionInUnits": 0,
+  "Title": "Woman Believed to be Alive Hourse Before Found Dead",
+  "UnitName": "ennui",
+  "ZeroOffset": 16
+}</pre></p></p><p><a id="/ActualPosition?id={motorIndex}"></a><p class="Uri Badge_get">/ActualPosition?id={motorIndex}</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets actual position of motor in steps. Position is synced with hardware asynchronously.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /ActualPosition?id=201</p><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">202</pre></p></p><p><a id="/TargetPosition?id={motorIndex}"></a><p class="Uri Badge_get">/TargetPosition?id={motorIndex}</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets target position of motor in steps.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /TargetPosition?id=138</p><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">9</pre></p></p><p><a id="/ActualPositionInUnits?id={motorIndex}"></a><p class="Uri Badge_get">/ActualPositionInUnits?id={motorIndex}</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets actual position of motor in units (typically mm or deg). Position is synced with hardware asynchronously.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /ActualPositionInUnits?id=263</p><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">955.7056431452304</pre></p></p><p><a id="/TargetPosition?id={motorIndex}"></a><p class="Uri Badge_put">/TargetPosition?id={motorIndex}</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets target position in steps and starts moving motor towards it. Invalid positions are silently ignored. See /ActualPosition to know when (and if) motor reaches target position.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /TargetPosition?id=29</p><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">128</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/TargetPositionRelative?id={motorIndex}"></a><p class="Uri Badge_put">/TargetPositionRelative?id={motorIndex}</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets target position in steps relative to current target position and starts moving motor towards it. Invalid positions are silently ignored. See /ActualPosition to know when (and if) motor reaches target position.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /TargetPositionRelative?id=214</p><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">282</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/TargetPositionInUnits?id={motorIndex}"></a><p class="Uri Badge_put">/TargetPositionInUnits?id={motorIndex}</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets target position in units and starts moving motor towards it. Invalid positions are silently ignored. See ActualPositionInUnits to know when (and if) motor reaches target position.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /TargetPositionInUnits?id=286</p><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">531.00597557192941</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/TargetPositionInSuperUnits?id={motorIndex}"></a><p class="Uri Badge_put">/TargetPositionInSuperUnits?id={motorIndex}</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Sets target position in super units and starts moving motor towards it. Invalid positions are silently ignored. See ActualPositionInSuperUnits to know when (and if) motor reaches target position.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /TargetPositionInSuperUnits?id=13</p><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">451.33612698471927</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/Stop?id={motorIndex}"></a><p class="Uri Badge_post">/Stop?id={motorIndex}</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Stop motor.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /Stop?id=152</p><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p><p><a id="/StopAll"></a><p class="Uri Badge_post">/StopAll</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Stop all motors.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p><p><a id="/LastHomingProcedureResult?id={motorIndex}"></a><p class="Uri Badge_get">/LastHomingProcedureResult?id={motorIndex}</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Returns result of last homing procedure for this motor. Results are not saved to persistent storage. If no reset procedures were performed for this motor or motor index is invalid error code 404 (Not found) is returned.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /LastHomingProcedureResult?id=244</p><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "FailureDescription": "",
+  "IsSuccessful": false,
+  "LatchedPositionDifference": 46
+}</pre></p></p><p><a id="/Home?id={motorIndex}"></a><p class="Uri Badge_post">/Home?id={motorIndex}</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Start motor homing procedure. See /GetMotorLastHomingResult for result after homing has finished. Check IsHoming motor property to know when homing procedure has ended.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /Home?id=218</p><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p><p><a id="/StopHoming?id={motorIndex}"></a><p class="Uri Badge_post">/StopHoming?id={motorIndex}</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Stops homing procedure command.</p>
+</p><div hidden=""></div><p class="ExampleUri">Example request Uri: /StopHoming?id=273</p><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p></div> 
+
+                    </div>  
+
+                </div>
+            </body>
+
+            		</html>

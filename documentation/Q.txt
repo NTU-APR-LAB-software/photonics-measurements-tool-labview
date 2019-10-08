@@ -1,0 +1,16 @@
+1. What type of Motor Controller do you plan to use with PT1-Z8 25 mm (0.98") Motorized Translation Stage? Is this KDC101? (https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2419)
+
+2. Do I understand correctly that two sets (Motor Controller + Motorized Translation Stage) will be used?
+
+3. Regarding scan parameters, what is the meaning of the parameters "Integration Time, s" and "Delay Time, ms"?
+
+4. What parameters do you think should be set in the Photocurrent Mapping mode?
+My list for now: 
+-Wavelength, nm
+-Start X, mm
+-Stop X, mm
+-Start Y, mm
+-Stop Y, mm
+
+
+

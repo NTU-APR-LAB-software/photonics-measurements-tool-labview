@@ -1,0 +1,2 @@
+This is the .dll you want to reference in your projects, if you plan to use Topas4 Public API via .NET dll (.NET framework 4.5.2 required) from LabView or Python.
+For C#/Visual Basic development you can use Nuget package https://www.nuget.org/packages/LightConversion.Topas4/

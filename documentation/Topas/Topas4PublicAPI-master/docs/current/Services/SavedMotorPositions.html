@@ -1,0 +1,84 @@
+<html><head>
+            		<!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            		<link rel="stylesheet" type="text/css" href="..\assets\CommonStyle.css"></head>
+            		
+            		<body>
+                <div id="content">
+
+                    <div id="container" style="width:100%;">
+
+                        <div id="MainMethodsMenu" class="MainMethodsMenu"><div class="MainMethodsMenuItem"><a href="#/Positions"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">Positions</div></div><div class="MainMethodsMenuItem"><a href="#/Positions"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">Positions</div></div><div class="MainMethodsMenuItem"><a href="#/SaveCurrent"><span class="Badge Badge_post">POST</span></a><div class="MainMethodsMenuInnerItem">SaveCurrent</div></div><div class="MainMethodsMenuItem"><a href="#/MoveMotorsToPosition"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">MoveMotorsToPosition</div></div><div class="MainMethodsMenuItem"><a href="#/Positions"><span class="Badge Badge_delete">DELETE</span></a><div class="MainMethodsMenuInnerItem">Positions</div></div></div>
+
+                        <div id="MethodsSubPage" class="MethodsSubPage"><p><a id="/Positions"></a><p class="Uri Badge_get">/Positions</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Gets all saved motor positions.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">[
+  {
+    "Comment": "",
+    "Folder": "",
+    "GUID": "bdd385a8-15fc-40c4-ba00-62b2aa95deef",
+    "MotorPositions": [
+      {
+        "Key": 65,
+        "Value": 76
+      },
+      {
+        "Key": 105,
+        "Value": 230
+      }
+    ],
+    "Name": "",
+    "TimeCreated": "\/Date(1500038173392+0300)\/"
+  },
+  {
+    "Comment": "",
+    "Folder": "",
+    "GUID": "dedfbc9a-9e32-4fff-be80-e25824afac80",
+    "MotorPositions": [
+      {
+        "Key": 36,
+        "Value": 87
+      },
+      {
+        "Key": 217,
+        "Value": 199
+      }
+    ],
+    "Name": "",
+    "TimeCreated": "\/Date(1500038173392+0300)\/"
+  }
+]</pre></p></p><p><a id="/Positions"></a><p class="Uri Badge_post">/Positions</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Add new postion to saved positions list.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">{
+  "Comment": "",
+  "Folder": "",
+  "GUID": "32056ae0-6fe7-4b07-8e82-48feae707f18",
+  "MotorPositions": [
+    {
+      "Key": 19,
+      "Value": 69
+    },
+    {
+      "Key": 200,
+      "Value": 157
+    }
+  ],
+  "Name": "",
+  "TimeCreated": "\/Date(1500038173415+0300)\/"
+}</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/SaveCurrent"></a><p class="Uri Badge_post">/SaveCurrent</p><div class="HttpMethod">Http method: POST</div><div hidden=""></div><p><p>Add new postion to saved positions list. Returns GUID of it.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">{
+  "Folder": "",
+  "Name": ""
+}</pre></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">"1d185c75"</pre></p></p><p><a id="/MoveMotorsToPosition"></a><p class="Uri Badge_put">/MoveMotorsToPosition</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Move motors to positions as saved.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">"759e0268"</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/Positions"></a><p class="Uri Badge_delete">/Positions</p><div class="HttpMethod">Http method: DELETE</div><div hidden=""></div><p><p>Delete existing saved position</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">"ed22a570"</pre></p><p><div>Response body is empty.</div></p></p></div> 
+
+                    </div>  
+
+                </div>
+            </body>
+
+            		</html>

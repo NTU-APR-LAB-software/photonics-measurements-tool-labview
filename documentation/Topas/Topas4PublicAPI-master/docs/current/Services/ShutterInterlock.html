@@ -1,0 +1,42 @@
+<html><head>
+            		<!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            		<link rel="stylesheet" type="text/css" href="..\assets\CommonStyle.css"></head>
+            		
+            		<body>
+                <div id="content">
+
+                    <div id="container" style="width:100%;">
+
+                        <div id="MainMethodsMenu" class="MainMethodsMenu"><div class="MainMethodsMenuItem"><a href="#/IsShutterOpen"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">IsShutterOpen</div></div><div class="MainMethodsMenuItem"><a href="#/State"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">State</div></div><div class="MainMethodsMenuItem"><a href="#/IsInterlockOpen"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">IsInterlockOpen</div></div><div class="MainMethodsMenuItem"><a href="#/OpenCloseShutter"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">OpenCloseShutter</div></div><div class="MainMethodsMenuItem"><a href="#/OpenShutter"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">OpenShutter</div></div><div class="MainMethodsMenuItem"><a href="#/CloseShutter"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">CloseShutter</div></div><div class="MainMethodsMenuItem"><a href="#/CloseLaserOutputBeforeChangingShutter"><span class="Badge Badge_put">PUT</span></a><div class="MainMethodsMenuInnerItem">CloseLaserOutputBeforeChangingShutter</div></div><div class="MainMethodsMenuItem"><a href="#/OutputControlWithLaserState"><span class="Badge Badge_get">GET</span></a><div class="MainMethodsMenuInnerItem">OutputControlWithLaserState</div></div></div>
+
+                        <div id="MethodsSubPage" class="MethodsSubPage"><p><a id="/IsShutterOpen"></a><p class="Uri Badge_get">/IsShutterOpen</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Returns true if shutter is open and false otherwise.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">false</pre></p></p><p><a id="/State"></a><p class="Uri Badge_get">/State</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Get state of shutter &amp; interlock unit.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "IsInterlockOpen": false,
+  "IsShutterOpen": false,
+  "IsShutterOpenIgnoringTemporarily": false,
+  "IsShutterTemporarilyClosedDueSafetyReasons": false
+}</pre></p></p><p><a id="/IsInterlockOpen"></a><p class="Uri Badge_get">/IsInterlockOpen</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Returns true if interlock is open and false otherwise.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">true</pre></p></p><p><a id="/OpenCloseShutter"></a><p class="Uri Badge_put">/OpenCloseShutter</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Opens shutter if parameter is True, closes if false. If shutter can't be opened due safety reasons method returns HTTP code 200 (OK) and ignores command.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">false</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/OpenShutter"></a><p class="Uri Badge_put">/OpenShutter</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Opens shutter. If shutter can't be opened due safety reasons method returns HTTP code 200 (OK) and ignores command.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p><p><a id="/CloseShutter"></a><p class="Uri Badge_put">/CloseShutter</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>Closes shutter.</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response body is empty.</div></p></p><p><a id="/CloseLaserOutputBeforeChangingShutter"></a><p class="Uri Badge_put">/CloseLaserOutputBeforeChangingShutter</p><div class="HttpMethod">Http method: PUT</div><div hidden=""></div><p><p>If set to true will try to close laser output before opening/closing shutter. Output will be enabled after shutter state change. Laser control has to be configured (see /OutputControlWithLaserState).</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request JSON body example: </div><pre class="pre-scrollable RequestJsonExample">false</pre></p><p><div>Response body is empty.</div></p></p><p><a id="/OutputControlWithLaserState"></a><p class="Uri Badge_get">/OutputControlWithLaserState</p><div class="HttpMethod">Http method: GET</div><div hidden=""></div><p><p>Get configuration and state of shutter control by lasers output control (i.e. pulse picker).</p>
+</p><div hidden=""></div><div hidden=""></div><p><div>Request body is empty.</div></p><p><div>Response JSON body example: </div><pre class="pre-scrollable ResponseJsonExample">{
+  "IsConnectionToLaserOk": false,
+  "IsControlByLaserEnabled": false,
+  "IsLaseControlConfiguredOk": false
+}</pre></p></p></div> 
+
+                    </div>  
+
+                </div>
+            </body>
+
+            		</html>

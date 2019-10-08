@@ -1,0 +1,3 @@
+pip==9.0.1
+pythonnet==2.3.0
+setuptools==28.8.0
