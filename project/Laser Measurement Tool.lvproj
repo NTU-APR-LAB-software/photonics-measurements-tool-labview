@@ -169,6 +169,7 @@
 				<Item Name="TLPM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Initialize.vi"/>
 				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
 				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Measure Power.vi"/>
+				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
 			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

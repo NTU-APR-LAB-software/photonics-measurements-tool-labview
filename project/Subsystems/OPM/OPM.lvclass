@@ -69,7 +69,7 @@ Optical Power Monitor base class</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574594</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1353196032</Property>
 		</Item>
 		<Item Name="OPM.DVRtoRef.vi" Type="VI" URL="../Private/OPM.DVRtoRef.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;,!!!!"Q!%!!!!#5!(!!.3:79!&amp;E!Q`````QV3:8.P&gt;8*D:3"/97VF!%E!]1!!!!!!!!!##U^143ZM&gt;G.M98.T'E.P&lt;G:J:X6S982J&lt;WYN,5.M&gt;8.U:8)O9X2M!"J!5!!"!!).1W^O:GFH&gt;8*B&gt;'FP&lt;A"(!0%!!!!!!!!!!AN05%UO&lt;(:D&lt;'&amp;T=RB1=GFW982F2'&amp;U93UN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!QR1=GFW982F)%2B&gt;'%!!$Q!]&gt;H!N+]!!!!##U^143ZM&gt;G.M98.T&amp;&amp;"S;8:B&gt;'6%982B,3V3:79O9X2M!".!=!!A!!%!"!!$5G6G!&amp;1!]!!-!!!!!!!"!!!!!!!!!!!!!!!!!!!!"1!!!A!!?!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!%!"A!!!!!</Property>
@@ -78,7 +78,7 @@ Optical Power Monitor base class</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574594</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1353196032</Property>
 		</Item>
 	</Item>
 	<Item Name="Methods (Overrides)" Type="Folder">
@@ -133,6 +133,15 @@ Optical Power Monitor base class</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="OPM.SetWavelength.vi" Type="VI" URL="../OPM.SetWavelength.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!=!!?!!!.#U^143ZM&gt;G.M98.T!!&gt;05%UA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;5!+!!Z898:F&lt;'6O:X2I,#"O&lt;1!!(E"Q!"Y!!!U,4V".,GRW9WRB=X-!"E^143"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
 		<Item Name="OPM.GetPower.vi" Type="VI" URL="../OPM.GetPower.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!#A!)5'^X:8)M)&amp;=!!"Z!=!!?!!!.#U^143ZM&gt;G.M98.T!!:143"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(%"Q!"Y!!!U,4V".,GRW9WRB=X-!"6".)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -152,7 +161,17 @@ Optical Power Monitor base class</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
-	<Item Name="API" Type="Folder"/>
+	<Item Name="API" Type="Folder">
+		<Item Name="SetWavelength.vi" Type="VI" URL="../SetWavelength.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!=!!?!!!.#U^143ZM&gt;G.M98.T!!&gt;05%UA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!J898:F&lt;'6O:X2I!!!?1(!!(A!!$1N05%UO&lt;(:D&lt;'&amp;T=Q!'4V".)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!=!!?!!!.#U^143ZM&gt;G.M98.T!!:143"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!;1(!!(A!!$1N05%UO&lt;(:D&lt;'&amp;T=Q!#5%U!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
