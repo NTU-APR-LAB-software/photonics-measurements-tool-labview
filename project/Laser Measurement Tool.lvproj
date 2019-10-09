@@ -38,6 +38,7 @@
 		<Item Name="Lock-In Amplifier" Type="Folder">
 			<Item Name="LIA.lvclass" Type="LVClass" URL="../Subsystems/LIA/LIA.lvclass"/>
 			<Item Name="LIA.SR810.lvclass" Type="LVClass" URL="../Subsystems/LIA.SR810/LIA.SR810.lvclass"/>
+			<Item Name="LIA.Simulated.lvclass" Type="LVClass" URL="../Subsystems/LIA.Simulated/LIA.Simulated.lvclass"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
