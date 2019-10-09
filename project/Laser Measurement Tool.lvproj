@@ -37,6 +37,7 @@
 		</Item>
 		<Item Name="Lock-In Amplifier" Type="Folder">
 			<Item Name="LIA.lvclass" Type="LVClass" URL="../Subsystems/LIA/LIA.lvclass"/>
+			<Item Name="LIA.SR810.lvclass" Type="LVClass" URL="../Subsystems/LIA.SR810/LIA.SR810.lvclass"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -172,6 +173,7 @@
 				<Item Name="TLPM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Close.vi"/>
 				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Measure Power.vi"/>
 				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
+				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
 			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
