@@ -40,6 +40,9 @@
 			<Item Name="LIA.SR810.lvclass" Type="LVClass" URL="../Subsystems/LIA.SR810/LIA.SR810.lvclass"/>
 			<Item Name="LIA.Simulated.lvclass" Type="LVClass" URL="../Subsystems/LIA.Simulated/LIA.Simulated.lvclass"/>
 		</Item>
+		<Item Name="Optical Parametric Amplifier" Type="Folder">
+			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
+		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
