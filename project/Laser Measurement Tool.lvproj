@@ -42,8 +42,13 @@
 		</Item>
 		<Item Name="Optical Parametric Amplifier" Type="Folder">
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
+			<Item Name="OPA.OrpheusHP.lvclass" Type="LVClass" URL="../Subsystems/OPA.OrpheusHP/OPA.OrpheusHP.lvclass"/>
+		</Item>
+		<Item Name="Measurement" Type="Folder">
+			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
+		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -168,6 +173,9 @@
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
+			<Item Name="OPA.API_TEMPLATE.vi" Type="VI" URL="../Subsystems/OPA/OPA.API_TEMPLATE.vi"/>
+			<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../Subsystems/OPA.OrpheusHP/Typedefs/Configuration--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
