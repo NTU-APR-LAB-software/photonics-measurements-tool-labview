@@ -46,6 +46,7 @@
 		</Item>
 		<Item Name="Measurement" Type="Folder">
 			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
+			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
