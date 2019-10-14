@@ -48,6 +48,7 @@
 			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
+			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
@@ -177,7 +178,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
-			<Item Name="OPA.API_TEMPLATE.vi" Type="VI" URL="../Subsystems/OPA/OPA.API_TEMPLATE.vi"/>
 			<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../Subsystems/OPA.OrpheusHP/Typedefs/Configuration--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
