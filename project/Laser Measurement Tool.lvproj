@@ -30,15 +30,15 @@
 			<Item Name="SMU.Keithley2600.lvclass" Type="LVClass" URL="../Subsystems/SMU.Keithley2600/SMU.Keithley2600.lvclass"/>
 			<Item Name="SMU.Simulated.lvclass" Type="LVClass" URL="../Subsystems/SMU.Simulated/SMU.Simulated.lvclass"/>
 		</Item>
-		<Item Name="Power Monitor" Type="Folder">
-			<Item Name="OPM.lvclass" Type="LVClass" URL="../Subsystems/OPM/OPM.lvclass"/>
-			<Item Name="OPM.ThorlabsPM400.lvclass" Type="LVClass" URL="../Subsystems/OPM.ThorlabsPM400/OPM.ThorlabsPM400.lvclass"/>
-			<Item Name="OPM.Simulated.lvclass" Type="LVClass" URL="../Subsystems/OPM.Simulated/OPM.Simulated.lvclass"/>
-		</Item>
 		<Item Name="Lock-In Amplifier" Type="Folder">
 			<Item Name="LIA.lvclass" Type="LVClass" URL="../Subsystems/LIA/LIA.lvclass"/>
 			<Item Name="LIA.SR810.lvclass" Type="LVClass" URL="../Subsystems/LIA.SR810/LIA.SR810.lvclass"/>
 			<Item Name="LIA.Simulated.lvclass" Type="LVClass" URL="../Subsystems/LIA.Simulated/LIA.Simulated.lvclass"/>
+		</Item>
+		<Item Name="Power Monitor" Type="Folder">
+			<Item Name="OPM.lvclass" Type="LVClass" URL="../Subsystems/OPM/OPM.lvclass"/>
+			<Item Name="OPM.ThorlabsPM400.lvclass" Type="LVClass" URL="../Subsystems/OPM.ThorlabsPM400/OPM.ThorlabsPM400.lvclass"/>
+			<Item Name="OPM.Simulated.lvclass" Type="LVClass" URL="../Subsystems/OPM.Simulated/OPM.Simulated.lvclass"/>
 		</Item>
 		<Item Name="Optical Parametric Amplifier" Type="Folder">
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
@@ -48,7 +48,7 @@
 			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
-			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.TestLauncher.vi"/>
+			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
@@ -124,6 +124,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="SMO.UI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO.UI/SMO.UI.lvclass"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
