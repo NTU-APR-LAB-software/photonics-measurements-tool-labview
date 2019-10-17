@@ -53,6 +53,7 @@
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
 			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
 		</Item>
+		<Item Name="measurement.free.ini" Type="Document" URL="../measurement.free.ini"/>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
