@@ -123,13 +123,13 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Device.Init.vi" Type="VI" URL="../Device.Init.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!%&amp;..63Z,:7FU;'RF?4)W-$!!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:8.V&lt;(1!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!%&amp;..63Z,:7FU;'RF?4)W-$!!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074528784</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Device.UnInit.vi" Type="VI" URL="../Device.UnInit.vi">
