@@ -427,4 +427,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="CreateActionMeasureState.vi" Type="VI" URL="../CreateActionMeasureState.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#E!!!!"A!%!!!!&amp;%!Q`````QJ4&gt;'&amp;U:8-A&lt;X6U!!!-1#%'27ZB9GRF!!!11$$`````"E2F&gt;GFD:1!!&amp;%!Q`````QIA5X2B&gt;'6T)'FO!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!)!!!!!!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!))!!!"#A!!!!!"!!5!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 </LVClass>
