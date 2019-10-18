@@ -135,6 +135,15 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="LIA.GetPublicEventsRegistration.vi" Type="VI" URL="../LIA.GetPublicEventsRegistration.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)?!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(9!]1!!!!!!!!!#&amp;UVF98.V=GFO:U2F&gt;GFD:3ZM&gt;G.M98.T.F"V9GRJ9U6W:7ZU=SUN476B=X6S;7ZH2'6W;7.F,EVF98.V=G6N:7ZU1W^N='RF&gt;'6E,G.U&lt;!!@1!-!&amp;%VF98.V=G6N:7ZU1W^N='RF&gt;'6E!!!A1(!!'1!"!!55476B=X6S:7VF&lt;H2$&lt;WVQ&lt;'6U:71!!')!]&gt;H/\TU!!!!#&amp;UVF98.V=GFO:U2F&gt;GFD:3ZM&gt;G.M98.T'6"V9GRJ9U6W:7ZU=SUN1WRV=X2F=CZD&gt;'Q!+%"1!!%!"BJ445]O6'6N='RB&gt;'5A5(6C&lt;'FD)%6W:7ZU=Q!!*%"Q!"=!!!!"!!%!!!0I!!=24%F")&amp;"V9GRJ9S"&amp;&gt;G6O&gt;(-!(E"Q!"Y!!!U,4%F",GRW9WRB=X-!"UR*13"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1(!!(A!!$1N-35%O&lt;(:D&lt;'&amp;T=Q!$4%F"!'%!]!!-!!-!"!!)!!E!"!!%!!1!"!!+!!1!"!!,!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!+!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="LIA.SetConfiguration.vi" Type="VI" URL="../LIA.SetConfiguration.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!=!!?!!!.#UR*13ZM&gt;G.M98.T!!&gt;-35%A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!Q`````QV736.")&amp;*F=W^V=G.F!%E!]1!!!!!!!!!##UR*13ZM&gt;G.M98.T'E.P&lt;G:J:X6S982J&lt;WYN,5.M&gt;8.U:8)O9X2M!"J!5!!"!!=.1W^O:GFH&gt;8*B&gt;'FP&lt;A!;1(!!(A!!$1N-35%O&lt;(:D&lt;'&amp;T=Q!$4%F"!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
