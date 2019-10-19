@@ -25,7 +25,7 @@
 		<Item Name="Device" Type="Folder">
 			<Item Name="Device.lvclass" Type="LVClass" URL="../Subsystems/Device/Device.lvclass"/>
 		</Item>
-		<Item Name="Masuring Device " Type="Folder">
+		<Item Name="Measuring Device " Type="Folder">
 			<Item Name="MeasuringDevice.lvclass" Type="LVClass" URL="../Subsystems/MeasuringDevice/MeasuringDevice.lvclass"/>
 		</Item>
 		<Item Name="SMU" Type="Folder">
