@@ -51,9 +51,10 @@
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
 			</Item>
-			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
+			<Item Name="Measurement.lvclass" Type="LVClass" URL="../Subsystems/Measurement/Measurement.lvclass"/>
 			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
+			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
 		</Item>
 		<Item Name="measurement.free.ini" Type="Document" URL="../measurement.free.ini"/>
@@ -202,6 +203,9 @@
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
 			<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../Subsystems/OPA.OrpheusHP/Typedefs/Configuration--Cluster.ctl"/>
+			<Item Name="Measurement.Free.OnMeasured.vi" Type="VI" URL="../Subsystems/Measurement.Free/Private/Measurement.Free.OnMeasured.vi"/>
+			<Item Name="Measurement.Free.GetPublicEvents.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.GetPublicEvents.vi"/>
+			<Item Name="Measurement.Free.GetPublicEventsRegistration.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.GetPublicEventsRegistration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

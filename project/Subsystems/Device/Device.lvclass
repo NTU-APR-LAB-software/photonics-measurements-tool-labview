@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="17008000">
-	<Property Name="NI.Lib.Description" Type="Str">By value SMO class with very small footprint. It includes a process and a launcher.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">By value SMO class with very small footprint.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;4";2N"&amp;-&lt;R,S;(['*1"U9NP![#=P0"'&amp;3#8Q''I-.?&gt;&amp;1,LQ7VI)M,?#U)8)&amp;;'0^X^,)7$AB$1MB"-RJZ^?X/P*^HFZ6[_S:^V@#*VFI\@:X[]/PH&gt;(YYZ=0\&amp;5-\H^_$&gt;H&lt;_N-:P][?D$`/HAP8Z50^3U\6&gt;W\6&gt;;JNWI@U&lt;QB&gt;JL.6;-I,B$..9PC6ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE$OZETOZETOZEROZE2OZE2OZE@&gt;/,H+2CRR35DQJF#S;,*"=$%8*6_**0)EH]@"4C3@R**\%EXCY2)EH]33?R*.YG+&lt;%EXA34_**0#T6*&gt;E\/:\%Q`)+0)%H]!3?Q%.*":Y!%"1,&amp;AY7A;(A:(!1?!*0Y/&amp;1A3@Q"*\!%XAYL=!4?!*0Y!E]4/G\%FUT&gt;H)],#0(YXA=D_.R0#QNR_.Y()`D=4S5E_.R0!\#+?AM$E(/*/=#ZY@D=4T]E?.R0)\(]4A?4P5\Z(VH2MX9S@%9(M.D?!S0Y7%*'2\$9XA-D_&amp;B72E?QW.Y$)`BI:1-D_%R0!&lt;%+%JZ'9M:%YW,D-$Q]/F0C`7\&amp;&amp;VCP5PV]+I?3N8$JHK)6!_([K;L&lt;K&lt;K*KEW8\7JKMV3&lt;9,KHV/B62B6%&gt;8E]5)&gt;_4YQ^IQ&gt;9]N9-V;-*70"G)^4``+&amp;R_.2B]."_`V?O^V/W_V7[`6;K^6+S_63C]6#]`F]?AX=U;=8AD&lt;DQ?X0_^@:D]@.\/HB:@&lt;^=80\@0`[R[_&lt;T\@`Y.WI'ZX89I`?!%]%,#!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
@@ -33,13 +33,13 @@
 	<Item Name="Methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Device.Init.vi" Type="VI" URL="../Device.Init.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%4!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:8.V&lt;(1!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074274816</Property>
 		</Item>
 		<Item Name="Device.Uninit.vi" Type="VI" URL="../Device.Uninit.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
@@ -54,13 +54,13 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%A!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:8.V&lt;(1!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Uninitialize.vi" Type="VI" URL="../Uninitialize.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E2F&gt;GFD:3ZM&gt;G.M98.T!!!+2'6W;7.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z%:8:J9W5O&lt;(:D&lt;'&amp;T=Q!!#52F&gt;GFD:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
