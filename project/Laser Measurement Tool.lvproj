@@ -48,6 +48,9 @@
 			<Item Name="OPA.OrpheusHP.lvclass" Type="LVClass" URL="../Subsystems/OPA.OrpheusHP/OPA.OrpheusHP.lvclass"/>
 		</Item>
 		<Item Name="Measurement" Type="Folder">
+			<Item Name="Utilities" Type="Folder">
+				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
+			</Item>
 			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
