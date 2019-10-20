@@ -202,7 +202,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
-			<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../Subsystems/OPA.OrpheusHP/Typedefs/Configuration--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
