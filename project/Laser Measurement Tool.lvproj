@@ -200,6 +200,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
+			<Item Name="Measurement.WavelengthSweeping.GetPublicEvents.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.GetPublicEvents.vi"/>
+			<Item Name="DataChanged--EventData--Cluster.ctl" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Typedefs/DataChanged--EventData--Cluster.ctl"/>
+			<Item Name="PublicEvents--Cluster.ctl" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Typedefs/PublicEvents--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
