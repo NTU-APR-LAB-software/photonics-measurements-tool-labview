@@ -145,6 +145,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="Measurement.Init.vi" Type="VI" URL="../Measurement.Init.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Q!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!B!#*!1!!"`````Q!%&amp;%2F='6O:'6O9WFF=S"3:8.V&lt;(2T!!!-1#%'5G6T&gt;7RU!!"71(!!(A!!+#:.:7&amp;T&gt;8*F&lt;76O&gt;#Z898:F&lt;'6O:X2I5X&gt;F:8"J&lt;G=O&lt;(:D&lt;'&amp;T=Q!!)EVF98.V=G6N:7ZU,F&gt;B&gt;G6M:7ZH&gt;'B4&gt;W6F='FO:S"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&gt;!!Q!2&gt;'FN:7^V&gt;#!I.4!Q-#"N=SE!6%"Q!"Y!!#AG476B=X6S:7VF&lt;H1O6W&amp;W:7RF&lt;G&gt;U;&amp;.X:76Q;7ZH,GRW9WRB=X-!!#&amp;.:7&amp;T&gt;8*F&lt;76O&gt;#Z898:F&lt;'6O:X2I5X&gt;F:8"J&lt;G=A;7Y!6!$Q!!Q!!Q!&amp;!!9!"Q!)!!A!#!!)!!E!#!!+!!M$!!"Y!!!.#!!!#1!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*)!!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Measurement.WavelengthSweeping.SetConfiguration.vi" Type="VI" URL="../Measurement.WavelengthSweeping.SetConfiguration.vi">
@@ -186,15 +195,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-	</Item>
-	<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Measurement.WavelengthSweeping.TestLauncher.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073742080</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="measurement.WavelengthSweeping.ini" Type="Document" URL="../../../measurement.WavelengthSweeping.ini"/>
 	<Item Name="measurement.WavelengthSweeping.simulated.ini" Type="Document" URL="../../../measurement.WavelengthSweeping.simulated.ini"/>

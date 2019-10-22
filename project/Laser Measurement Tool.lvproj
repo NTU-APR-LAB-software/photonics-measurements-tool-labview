@@ -56,6 +56,8 @@
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
 			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
 			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
+			<Item Name="Measurement.WavelengthSweeping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping.UI/Measurement.WavelengthSweeping.UI.lvclass"/>
+			<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
@@ -200,9 +202,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
-			<Item Name="Measurement.WavelengthSweeping.GetPublicEvents.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.GetPublicEvents.vi"/>
-			<Item Name="DataChanged--EventData--Cluster.ctl" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Typedefs/DataChanged--EventData--Cluster.ctl"/>
-			<Item Name="PublicEvents--Cluster.ctl" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Typedefs/PublicEvents--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
