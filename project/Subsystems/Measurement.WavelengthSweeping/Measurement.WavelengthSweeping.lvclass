@@ -136,6 +136,15 @@
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="Measurement.WavelengthSweeping.GetStaticDependencies.vi" Type="VI" URL="../Measurement.WavelengthSweeping.GetStaticDependencies.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!=!!?!!!.#V..63ZM&gt;G.M98.T!!.4465!'E"Q!"Y!!!U,4%F",GRW9WRB=X-!!UR*11!;1(!!(A!!$1N05%UO&lt;(:D&lt;'&amp;T=Q!$4V".!"J!=!!?!!!.#U^113ZM&gt;G.M98.T!!.05%%!;1$R!!!!!!!!!!)G476B=X6S:7VF&lt;H1O6W&amp;W:7RF&lt;G&gt;U;&amp;.X:76Q;7ZH,GRW9WRB=X-:2'6Q:7ZE:7ZD;76T,3V$&lt;(6T&gt;'6S,G.U&lt;!!A1&amp;!!"!!&amp;!!9!"Q!)$%2F='6O:'6O9WFF=Q!!6E"Q!"Y!!#AG476B=X6S:7VF&lt;H1O6W&amp;W:7RF&lt;G&gt;U;&amp;.X:76Q;7ZH,GRW9WRB=X-!!#*.:7&amp;T&gt;8*F&lt;76O&gt;#Z898:F&lt;'6O:X2I5X&gt;F:8"J&lt;G=A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;2!=!!?!!!I*EVF98.V=G6N:7ZU,F&gt;B&gt;G6M:7ZH&gt;'B4&gt;W6F='FO:SZM&gt;G.M98.T!!!B476B=X6S:7VF&lt;H1O6W&amp;W:7RF&lt;G&gt;U;&amp;.X:76Q;7ZH)'FO!'%!]!!-!!-!"!!*!!I!"!!%!!1!"!!,!!1!"!!-!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Measurement.WavelengthSweeping.SetConfiguration.vi" Type="VI" URL="../Measurement.WavelengthSweeping.SetConfiguration.vi">
