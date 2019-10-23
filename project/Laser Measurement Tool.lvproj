@@ -52,6 +52,7 @@
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
 			</Item>
 			<Item Name="Measurement.lvclass" Type="LVClass" URL="../Subsystems/Measurement/Measurement.lvclass"/>
+			<Item Name="Measurement.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.UI/Measurement.UI.lvclass"/>
 			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
 			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
 			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
