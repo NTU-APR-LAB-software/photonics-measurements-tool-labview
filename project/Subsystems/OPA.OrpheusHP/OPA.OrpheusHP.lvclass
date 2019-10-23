@@ -159,5 +159,16 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="Locate Devices.vi" Type="VI" URL="../Utilities/Locate Devices.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"N!!!!"1!71$$`````$&amp;.F=GFB&lt;%ZV&lt;7*F=A!!(%"!!!(`````!!!/5W6S;7&amp;M)%ZV&lt;7*F=H-!!!N!!Q!&amp;1W^V&lt;H1!"!!!!#1!]!!%!!%!!A!$!!-$!!!I!!!*!!!!#1!!!!!!!!!!!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		</Item>
+	</Item>
 	<Item Name="API" Type="Folder"/>
 </LVClass>

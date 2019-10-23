@@ -51,6 +51,8 @@
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
 				<Item Name="Measurement Launcher.vi" Type="VI" URL="../Utilities/Measurement Launcher.vi"/>
+				<Item Name="Tree Toggle Symbol.vi" Type="VI" URL="../Utilities/Tree Toggle Symbol.vi"/>
+				<Item Name="Tree Set Symbol.vi" Type="VI" URL="../Utilities/Tree Set Symbol.vi"/>
 			</Item>
 			<Item Name="Free" Type="Folder">
 				<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
@@ -205,11 +207,22 @@
 				<Item Name="TLPM Measure Power.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Measure Power.vi"/>
 				<Item Name="TLPM Set Wavelength.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Set Wavelength.vi"/>
 				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
+				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Resource Name.vi"/>
+				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
+				<Item Name="Get Current.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get Current.vi"/>
+				<Item Name="Item Add.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Item Add.vi"/>
+				<Item Name="Get Children.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get Children.vi"/>
+				<Item Name="Get All.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get All.vi"/>
+				<Item Name="Tree Empty.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Tree Empty.vi"/>
 			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Topas4Lib.dll" Type="Document" URL="../../../Topas4PublicAPI/NET_SDK/Topas4Lib.dll"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

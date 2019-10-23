@@ -50,8 +50,8 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 			</Item>
-			<Item Name="Configuration.OPA--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.OPA--Cluster.ctl">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$C!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5^113".&lt;W2F&lt;!!71$$`````$6.F=GFB&lt;#"/&gt;7VC:8)!31$R!!!!!!!!!!),4V"",GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!&amp;U!]&gt;H/.4!!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-?1W^O:GFH&gt;8*B&gt;'FP&lt;CZ05%%N,5.M&gt;8.U:8)O9X2M!#*!5!!$!!!!!1!$%5.P&lt;G:J:X6S982J&lt;WYO4V""!!%!"!!!!!!</Property>
+			<Item Name="Configuration.OPM--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.OPM--Cluster.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$C!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5^143".&lt;W2F&lt;!!71$$`````$6:*5U%A5G6T&lt;X6S9W5!31$R!!!!!!!!!!),4V".,GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!&amp;U!]&gt;H/.3!!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-?1W^O:GFH&gt;8*B&gt;'FP&lt;CZ05%UN,5.M&gt;8.U:8)O9X2M!#*!5!!$!!!!!1!$%5.P&lt;G:J:X6S982J&lt;WYO4V".!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -59,8 +59,8 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 			</Item>
-			<Item Name="Configuration.OPM--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.OPM--Cluster.ctl">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$C!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5^143".&lt;W2F&lt;!!71$$`````$6:*5U%A5G6T&lt;X6S9W5!31$R!!!!!!!!!!),4V".,GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!&amp;U!]&gt;H/.3!!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-?1W^O:GFH&gt;8*B&gt;'FP&lt;CZ05%UN,5.M&gt;8.U:8)O9X2M!#*!5!!$!!!!!1!$%5.P&lt;G:J:X6S982J&lt;WYO4V".!!%!"!!!!!!</Property>
+			<Item Name="Configuration.OPA--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.OPA--Cluster.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$C!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5^113".&lt;W2F&lt;!!71$$`````$6.F=GFB&lt;#"/&gt;7VC:8)!31$R!!!!!!!!!!),4V"",GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!&amp;U!]&gt;H/.4!!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-?1W^O:GFH&gt;8*B&gt;'FP&lt;CZ05%%N,5.M&gt;8.U:8)O9X2M!#*!5!!$!!!!!1!$%5.P&lt;G:J:X6S982J&lt;WYO4V""!!%!"!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
