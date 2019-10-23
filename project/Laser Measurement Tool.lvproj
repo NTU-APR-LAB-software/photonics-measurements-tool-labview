@@ -50,15 +50,22 @@
 		<Item Name="Measurement" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
+				<Item Name="Measurement Launcher.vi" Type="VI" URL="../Utilities/Measurement Launcher.vi"/>
+			</Item>
+			<Item Name="Free" Type="Folder">
+				<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
+				<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
+				<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.TestLauncher.vi"/>
+				<Item Name="Measurement.Free.TestLauncher2.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.TestLauncher2.vi"/>
+			</Item>
+			<Item Name="Wavelength Sweeping" Type="Folder">
+				<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
+				<Item Name="Measurement.WavelengthSweeping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping.UI/Measurement.WavelengthSweeping.UI.lvclass"/>
+				<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.TestLauncher.vi"/>
 			</Item>
 			<Item Name="Measurement.lvclass" Type="LVClass" URL="../Subsystems/Measurement/Measurement.lvclass"/>
 			<Item Name="Measurement.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.UI/Measurement.UI.lvclass"/>
-			<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
-			<Item Name="Measurement.Free.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.UI.lvclass"/>
-			<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free.UI/Measurement.Free.TestLauncher.vi"/>
-			<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
-			<Item Name="Measurement.WavelengthSweeping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping.UI/Measurement.WavelengthSweeping.UI.lvclass"/>
-			<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.TestLauncher.vi"/>
+			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement/Measurement.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="LMT.lvclass" Type="LVClass" URL="../Subsystems/LMT/LMT.lvclass"/>
