@@ -96,7 +96,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
-		<Item Name="MeasuredData--Cluster.ctl" Type="VI" URL="../Typedefs/MeasuredData--Cluster.ctl">
+		<Item Name="Measurement.WavelengthSweeping.Measured--Data.ctl" Type="VI" URL="../Typedefs/Measurement.WavelengthSweeping.Measured--Data.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
