@@ -63,6 +63,7 @@
 			</Item>
 			<Item Name="I/V Curve" Type="Folder">
 				<Item Name="Measurement.IVCurve.lvclass" Type="LVClass" URL="../Subsystems/Measurement.IVCurve/Measurement.IVCurve.lvclass"/>
+				<Item Name="Measurement.IVCurve.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.IVCurve.UI/Measurement.IVCurve.UI.lvclass"/>
 			</Item>
 			<Item Name="Wavelength Sweeping" Type="Folder">
 				<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
@@ -199,6 +200,7 @@
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
