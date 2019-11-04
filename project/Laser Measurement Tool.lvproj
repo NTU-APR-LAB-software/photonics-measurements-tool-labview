@@ -61,11 +61,13 @@
 				<Item Name="Measurement.Free.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.TestLauncher.vi"/>
 				<Item Name="Measurement.Free.TestLauncher2.vi" Type="VI" URL="../Subsystems/Measurement.Free/Measurement.Free.TestLauncher2.vi"/>
 			</Item>
+			<Item Name="I/V Curve" Type="Folder"/>
 			<Item Name="Wavelength Sweeping" Type="Folder">
 				<Item Name="Measurement.WavelengthSweeping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.lvclass"/>
 				<Item Name="Measurement.WavelengthSweeping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping.UI/Measurement.WavelengthSweeping.UI.lvclass"/>
 				<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.TestLauncher.vi"/>
 			</Item>
+			<Item Name="Photocurrent mapping" Type="Folder"/>
 			<Item Name="Measurement.lvclass" Type="LVClass" URL="../Subsystems/Measurement/Measurement.lvclass"/>
 			<Item Name="Measurement.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.UI/Measurement.UI.lvclass"/>
 			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement/Measurement.TestLauncher.vi"/>
