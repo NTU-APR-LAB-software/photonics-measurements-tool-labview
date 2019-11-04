@@ -70,6 +70,8 @@
 			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement/Measurement.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
+		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
+		<Item Name="Tree Create Measurement Item.vi" Type="VI" URL="../Utilities/Tree Create Measurement Item.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
