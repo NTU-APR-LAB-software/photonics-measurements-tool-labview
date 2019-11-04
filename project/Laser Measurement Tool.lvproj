@@ -53,6 +53,7 @@
 				<Item Name="Measurement Launcher.vi" Type="VI" URL="../Utilities/Measurement Launcher.vi"/>
 				<Item Name="Tree Toggle Symbol.vi" Type="VI" URL="../Utilities/Tree Toggle Symbol.vi"/>
 				<Item Name="Tree Set Symbol.vi" Type="VI" URL="../Utilities/Tree Set Symbol.vi"/>
+				<Item Name="Tree Create Measurement Item.vi" Type="VI" URL="../Utilities/Tree Create Measurement Item.vi"/>
 			</Item>
 			<Item Name="Free" Type="Folder">
 				<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
@@ -71,7 +72,6 @@
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
-		<Item Name="Tree Create Measurement Item.vi" Type="VI" URL="../Utilities/Tree Create Measurement Item.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
