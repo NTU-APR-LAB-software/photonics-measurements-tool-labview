@@ -1,0 +1,75 @@
+loadscript ghaith
+ local t =0
+smua.reset()
+smua.source.func = smua.OUTPUT_DCVOLTS
+smua.measure.autorangei = smua.AUTORANGE_OFF
+smua.measure.autorangev = smua.AUTORANGE_OFF
+smua.source.autorangei = smua.AUTORANGE_OFF
+smua.source.autorangev = smua.AUTORANGE_OFF
+smua.source.rangev= 10.000000
+ smua.source.limitv= 1.000000 
+ smua.measure.rangev=10.000000 
+ smua.measure.rangei= 1.000000
+
+
+
+smua.measure.autozero = smua.AUTOZERO_ONCE
+smua.sense = smua.SENSE_REMOTE
+
+
+smua.measure.nplc = 0.001000
+smua.measure.filter.type = smua.FILTER_MOVING_AVG 
+smua.measure.filter.count = 1 
+smua.measure.filter.enable = 0
+smua.source.output = 1
+t=0
+timer.reset()
+while true and t < 360.000000 do 
+smua.source.levelv =1.000000
+for i =1,2.000000 do
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =2.000000
+for i =1,4.000000 do
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =3.000000
+for i =1, 4.000000 do 
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =-1.000000 
+for i =1,4.000000 do 
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =-2.000000  
+for i =1,4.000000 do
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =-3.000000
+for i =1,4.000000 do
+delay(0.004500)
+print(smua.measure.iv())
+end
+smua.source.levelv =1.000000
+for i =1,2.000000 do
+delay(0.004500)
+print(smua.measure.iv())
+end
+t=timer.measure.t()
+end
+t=0
+timer.reset()
+
+end
+
+end
+smua.reset()
+print('done!')
+smua.source.output = 0
+endscript
+ghaith
