@@ -123,7 +123,6 @@ Represent Thorlabs PM400 Handheld Optical Power and Energy Meter Console with Mu
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Device.Init.vi" Type="VI" URL="../Device.Init.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:8.V&lt;(1!!$J!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!&amp;5^143Z5;'^S&lt;'&amp;C=V"..$!Q)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!%5^143Z5;'^S&lt;'&amp;C=V"..$!Q!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -132,6 +131,7 @@ Represent Thorlabs PM400 Handheld Optical Power and Energy Meter Console with Mu
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Device.UnInit.vi" Type="VI" URL="../Device.UnInit.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!&amp;5^143Z5;'^S&lt;'&amp;C=V"..$!Q)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!%5^143Z5;'^S&lt;'&amp;C=V"..$!Q!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
@@ -141,6 +141,7 @@ Represent Thorlabs PM400 Handheld Optical Power and Energy Meter Console with Mu
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="OPM.GetPower.vi" Type="VI" URL="../OPM.GetPower.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%C!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!#A!)5'^X:8)M)&amp;=!!#R!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!"F".)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!K1(!!(A!!'RF05%UO6'BP=GRB9H.1441Q-#ZM&gt;G.M98.T!!6143"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!E!!!!!</Property>
@@ -150,6 +151,7 @@ Represent Thorlabs PM400 Handheld Optical Power and Energy Meter Console with Mu
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="OPM.SetWavelength.vi" Type="VI" URL="../OPM.SetWavelength.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!&amp;5^143Z5;'^S&lt;'&amp;C=V"..$!Q)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"6!#A!/6W&amp;W:7RF&lt;G&gt;U;#QA&lt;GU!!$J!=!!?!!!&lt;'5^143Z5;'^S&lt;'&amp;C=V"..$!Q,GRW9WRB=X-!&amp;%^143Z5;'^S&lt;'&amp;C=V"..$!Q)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
@@ -159,17 +161,18 @@ Represent Thorlabs PM400 Handheld Optical Power and Energy Meter Console with Mu
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Find Resources.vi" Type="VI" URL="../Utilities/Find Resources.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"N!!!!"1!71$$`````$6*F=W^V=G.F)%ZB&lt;75!(%"!!!(`````!!!/5G6T&lt;X6S9W5A4G&amp;N:8-!!!N!"Q!&amp;1W^V&lt;H1!"!!!!#1!]!!%!!%!!A!$!!-$!!!I!!!*!!!!#1!!!!!!!!!!!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$7!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!Q`````QV3:8.P&gt;8*D:3"/97VF!"R!1!!"`````Q!%$F*F=W^V=G.F)%ZB&lt;76T!!!,1!=!"5.P&gt;7ZU!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!"!!!!$!!]!!'!!-!"1!'!!=!#!!)!Q!!5!!!$1-!!!E!!!!*!!!!#A!!!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder"/>

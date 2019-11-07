@@ -122,6 +122,7 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Device.Init.vi" Type="VI" URL="../Device.Init.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:3:8.V&lt;(1!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!%&amp;..63Z,:7FU;'RF?4)W-$!!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -130,7 +131,6 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Device.UnInit.vi" Type="VI" URL="../Device.UnInit.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!%&amp;..63Z,:7FU;'RF?4)W-$!!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
@@ -140,7 +140,6 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="SMU.SetOutput.vi" Type="VI" URL="../SMU.SetOutput.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!)1Z0&gt;82Q&gt;81A+%:B&lt;(.F+1!!/%"Q!"Y!!"I95UV6,ENF;82I&lt;'6Z-D9Q-#ZM&gt;G.M98.T!!!45UV6,ENF;82I&lt;'6Z-D9Q-#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
@@ -150,7 +149,6 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="SMU.SetVoltage.vi" Type="VI" URL="../SMU.SetVoltage.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'&amp;..63Z,:7FU;'RF?4)W-$!O&lt;(:D&lt;'&amp;T=Q!!&amp;&amp;..63Z,:7FU;'RF?4)W-$!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!#A!+6G^M&gt;'&amp;H:3QA6A!!/%"Q!"Y!!"I95UV6,ENF;82I&lt;'6Z-D9Q-#ZM&gt;G.M98.T!!!45UV6,ENF;82I&lt;'6Z-D9Q-#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
@@ -160,7 +158,6 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="SMU.GetCurrent.vi" Type="VI" URL="../SMU.GetCurrent.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+1X6S=G6O&gt;#QA11!!/E"Q!"Y!!"I95UV6,ENF;82I&lt;'6Z-D9Q-#ZM&gt;G.M98.T!!!55UV6,ENF;82I&lt;'6Z-D9Q-#"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I95UV6,ENF;82I&lt;'6Z-D9Q-#ZM&gt;G.M98.T!!!45UV6,ENF;82I&lt;'6Z-D9Q-#"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!E!!!!!</Property>
@@ -170,7 +167,6 @@ SMU Keithley 2600 Instrument Driver layers</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder"/>
