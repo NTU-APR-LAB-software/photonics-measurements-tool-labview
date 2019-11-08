@@ -5,3 +5,73 @@ https://forum.tek.com/viewtopic.php?f=14&t=114480&p=206187&hilit=sample+rate#p20
 https://forum.tek.com/viewtopic.php?f=14&t=540&p=769&hilit=sample+rate#p769
 
 https://forums.ni.com/t5/Instrument-Control-GPIB-Serial/keithley-26xx-2602-continuous-measurement-as-fast-as-possible/td-p/986409?profile.language=en
+
+
+        loadscript ContinuousMeasurementScript
+        smua.reset()
+
+        smua.nvbuffer1.clear()
+        smua.nvbuffer1.appendmode = 1
+        smua.nvbuffer1.collecttimestamps = 1
+
+	-- set fixed measure range
+	smua.measure.rangei = 100e-6  	
+	smua.measure.autozero = smua.AUTOZERO_ONCE
+	smua.measure.interval = 0.0001	-- 10 kHz	
+	smua.measure.nplc = (smua.measure.interval - 100e-6)*localnode.linefreq
+        smua.measure.count = 1000
+
+	while true do
+		smua.measure.overlappedv(smua.nvbuffer1)
+		waitcomplete()
+
+	        printbuffer(1, 1000, smua.nvbuffer1)
+	end
+
+        endscript
+
+        ContinuousMeasurementScript.run()
+
+
+
+Hello,
+
+Please guide me in the right direction. What measurement system architecture should I use to:
+
+- continuously (no breaks) measure current at a given sampling rate (up to 10 kHz) (voltage = const)
+- receive measured data in a program on a PC (Labview)
+
+At the moment I don’t have the equipment at hand to verify correct operation. Using the forum and Reference Manual, I created a preliminary script for discussion. 
+
+Do I understand correctly that after running this script data from the equipment will come to the PC 10 times per second?
+However, as I understand it, measurements will not be taken during data transmission? How can this be avoided?
+Thanks.
+
+[code]
+        loadscript ContinuousMeasurementScript
+        smua.reset()
+
+        smua.nvbuffer1.clear()
+        smua.nvbuffer1.appendmode = 1
+        smua.nvbuffer1.collecttimestamps = 1
+
+	-- set fixed measure range
+	smua.measure.rangei = 100e-6  	
+	smua.measure.autozero = smua.AUTOZERO_ONCE
+	-- 10 kHz sampling rate
+	smua.measure.interval = 0.0001
+	smua.measure.nplc = (smua.measure.interval - 100e-6)*localnode.linefreq
+        smua.measure.count = 1000
+
+	-- Endless cycle
+	while true do
+		smua.measure.overlappedv(smua.nvbuffer1)
+		waitcomplete()
+
+	        printbuffer(1, 1000, smua.nvbuffer1)
+	end
+
+        endscript
+
+        ContinuousMeasurementScript.run()
+[/code]
