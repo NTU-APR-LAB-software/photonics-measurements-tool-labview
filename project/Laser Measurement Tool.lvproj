@@ -47,6 +47,10 @@
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
 			<Item Name="OPA.OrpheusHP.lvclass" Type="LVClass" URL="../Subsystems/OPA.OrpheusHP/OPA.OrpheusHP.lvclass"/>
 		</Item>
+		<Item Name="XYStage" Type="Folder">
+			<Item Name="XYStage.lvclass" Type="LVClass" URL="../Subsystems/XYStage/XYStage.lvclass"/>
+			<Item Name="XYStage.KIM101.lvclass" Type="LVClass" URL="../Subsystems/XYStage.KIM101/XYStage.KIM101.lvclass"/>
+		</Item>
 		<Item Name="Measurement" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
@@ -226,6 +230,7 @@
 			</Item>
 			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../../tests/KIM101/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
