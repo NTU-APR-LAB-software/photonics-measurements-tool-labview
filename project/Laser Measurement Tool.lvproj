@@ -230,7 +230,9 @@
 			</Item>
 			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../../tests/KIM101/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../data/Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
