@@ -233,6 +233,7 @@
 			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../data/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+			<Item Name="API Inputs--Cluster.ctl" Type="VI" URL="../Subsystems/XYStage/Typedefs/API Inputs--Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
