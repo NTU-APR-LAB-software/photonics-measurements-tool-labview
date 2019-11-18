@@ -74,10 +74,12 @@
 				<Item Name="Measurement.WavelengthSweeping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.WavelengthSweeping.UI/Measurement.WavelengthSweeping.UI.lvclass"/>
 				<Item Name="Measurement.WavelengthSweeping.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement.WavelengthSweeping/Measurement.WavelengthSweeping.TestLauncher.vi"/>
 			</Item>
-			<Item Name="Photocurrent mapping" Type="Folder"/>
+			<Item Name="Photocurrent mapping" Type="Folder">
+				<Item Name="Measurement.PhotocurrentMapping.lvclass" Type="LVClass" URL="../Subsystems/Measurement.PhotocurrentMapping/Measurement.PhotocurrentMapping.lvclass"/>
+				<Item Name="Measurement.PhotocurrentMapping.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.PhotocurrentMapping.UI/Measurement.PhotocurrentMapping.UI.lvclass"/>
+			</Item>
 			<Item Name="Measurement.lvclass" Type="LVClass" URL="../Subsystems/Measurement/Measurement.lvclass"/>
 			<Item Name="Measurement.UI.lvclass" Type="LVClass" URL="../Subsystems/Measurement.UI/Measurement.UI.lvclass"/>
-			<Item Name="Measurement.TestLauncher.vi" Type="VI" URL="../Subsystems/Measurement/Measurement.TestLauncher.vi"/>
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
@@ -262,7 +264,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E599EC52-754B-4833-A3E4-4F0CD407B7FC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Measurement/Measurement.TestLauncher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
