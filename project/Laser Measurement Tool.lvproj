@@ -53,11 +53,14 @@
 		</Item>
 		<Item Name="Measurement" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
+				<Item Name="Tree Helpers" Type="Folder">
+					<Item Name="Tree Toggle Symbol.vi" Type="VI" URL="../Utilities/Tree Toggle Symbol.vi"/>
+					<Item Name="Tree Set Symbol.vi" Type="VI" URL="../Utilities/Tree Set Symbol.vi"/>
+					<Item Name="Tree Create Measurement Item.vi" Type="VI" URL="../Utilities/Tree Create Measurement Item.vi"/>
+				</Item>
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
 				<Item Name="Measurement Launcher.vi" Type="VI" URL="../Utilities/Measurement Launcher.vi"/>
-				<Item Name="Tree Toggle Symbol.vi" Type="VI" URL="../Utilities/Tree Toggle Symbol.vi"/>
-				<Item Name="Tree Set Symbol.vi" Type="VI" URL="../Utilities/Tree Set Symbol.vi"/>
-				<Item Name="Tree Create Measurement Item.vi" Type="VI" URL="../Utilities/Tree Create Measurement Item.vi"/>
+				<Item Name="Create Linear Vector.vi" Type="VI" URL="../Utilities/Create Linear Vector.vi"/>
 			</Item>
 			<Item Name="Free" Type="Folder">
 				<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>

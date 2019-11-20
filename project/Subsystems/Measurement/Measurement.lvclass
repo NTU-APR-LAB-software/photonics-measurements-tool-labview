@@ -68,6 +68,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 			</Item>
+			<Item Name="Configuration.XYStage--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.XYStage--Cluster.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$G!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5R*13".&lt;W2F&lt;!!71$$`````$6:*5U%A5G6T&lt;X6S9W5!31$R!!!!!!!!!!),4%F",GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!'%!]&gt;H/.19!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-C1W^O:GFH&gt;8*B&gt;'FP&lt;CZ976.U97&gt;F,3V$&lt;(6T&gt;'6S,G.U&lt;!!C1&amp;!!!Q!!!!%!!R&amp;$&lt;WZG;7&gt;V=G&amp;U;7^O,ER*11!"!!1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			</Item>
 		</Item>
 		<Item Name="Enums" Type="Folder">
 			<Item Name="Measurement.Type--Enum.ctl" Type="VI" URL="../Typedefs/Measurement.Type--Enum.ctl">
@@ -170,15 +179,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-		</Item>
-		<Item Name="Measurement.Measured--Data.ctl" Type="VI" URL="../Typedefs/Measurement.Measured--Data.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#.!!!!!Q!H1"9!!Q.4465$4%F"!U^141!3476B=X6S:7VF&lt;H1A2'6W;7.F!!!-1&amp;-'5G6T&gt;7RU!!"3!0%!!!!!!!!!!B..:7&amp;T&gt;8*F&lt;76O&gt;#ZM&gt;G.M98.T(5VF98.V=G6N:7ZU,E:S:75O476B=X6S:71O9X2M!"B!5!!#!!!!!1B.:7&amp;T&gt;8*F:!!!!1!#!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
 		<Item Name="ProtectedEvents--Cluster.ctl" Type="VI" URL="../Typedefs/ProtectedEvents--Cluster.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$.!!!!!Q"=!0%!!!!!!!!!!B..:7&amp;T&gt;8*F&lt;76O&gt;#ZM&gt;G.M98.T+V"S&lt;X2F9X2F:%6W:7ZU=SUN476B=X6S:7VF&lt;H1O37ZJ&gt;'FB&lt;'F[:3ZD&gt;'Q!&amp;%!B#EFO;82J97RJ?G5!!":!=!!:!!%!!!J*&lt;GFU;7&amp;M;8JF!!"4!0(:U*;#!!!!!B..:7&amp;T&gt;8*F&lt;76O&gt;#ZM&gt;G.M98.T'F"S;8:B&gt;'6&amp;&gt;G6O&gt;(-N,5.M&gt;8.U:8)O9X2M!"R!5!!"!!%/5(*J&gt;G&amp;U:3"&amp;&gt;G6O&gt;(-!!!%!!A!!!!!</Property>
