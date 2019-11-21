@@ -77,6 +77,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 			</Item>
+			<Item Name="Scanning Direction--Enum.ctl" Type="VI" URL="../Typedefs/Scanning Direction--Enum.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			</Item>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Grid--Cluster.ctl" Type="VI" URL="../Typedefs/Grid--Cluster.ctl">
@@ -255,6 +264,17 @@
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder"/>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="XYStage Sweep Control.vi" Type="VI" URL="../Utilities/XYStage Sweep Control.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'[!!!!#Q!%!!!!#E!B"5ZF?(1`!"&amp;!!Q!,73"*&lt;G2F?#"P&gt;81!%5!$!!N9)%FO:'6Y)'^V&gt;!"[!0%!!!!!!!!!!C&gt;.:7&amp;T&gt;8*F&lt;76O&gt;#Z1;'^U&lt;W.V=H*F&lt;H2.98"Q;7ZH,GRW9WRB=X-=5W.B&lt;GZJ&lt;G=A2'FS:7.U;7^O,3V&amp;&lt;H6N,G.U&lt;!!N1"9!!A&gt;'&lt;X*X98*E#%*B9WNX98*E!!!/2'FS=G6D&gt;'FP&lt;C"P&gt;81!!(A!]1!!!!!!!!!#*UVF98.V=G6N:7ZU,F"I&lt;X2P9X6S=G6O&gt;%VB=("J&lt;G=O&lt;(:D&lt;'&amp;T=RR49W&amp;O&lt;GFO:S"%;8*F9X2J&lt;WYN,56O&gt;7UO9X2M!#N!&amp;A!#"U:P=H&gt;B=G1)1G&amp;D;X&gt;B=G1!!!V%;8*S:7.U;7^O)'FO!!V!!Q!(73"$&lt;X6O&gt;!!.1!-!"VAA1W^V&lt;H1!%5!$!!J:)%FO:'6Y)'FO!!!21!-!#FAA37ZE:8AA;7Y!!&amp;1!]!!-!!!!!1!#!!-!"!!!!!5!!!!'!!=!#!!*!A!!?!!!!!!!!!E!!!!.#A!!$1M!!!U'!!!!!!!!#A!!!!!!!!!)!!!!#A!!!!I!!!!+!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+		</Item>
+	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;:!=!!?!!!J*UVF98.V=G6N:7ZU,F"I&lt;X2P9X6S=G6O&gt;%VB=("J&lt;G=O&lt;(:D&lt;'&amp;T=Q!D476B=X6S:7VF&lt;H1O5'BP&gt;'^D&gt;8*S:7ZU47&amp;Q='FO:S"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!&amp;*!=!!?!!!J*UVF98.V=G6N:7ZU,F"I&lt;X2P9X6S=G6O&gt;%VB=("J&lt;G=O&lt;(:D&lt;'&amp;T=Q!@476B=X6S:7VF&lt;H1O5'BP&gt;'^D&gt;8*S:7ZU47&amp;Q='FO:Q"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
