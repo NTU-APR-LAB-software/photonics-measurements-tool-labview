@@ -152,6 +152,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
+		<Item Name="Measurement.PhotocurrentMapping.Configured--Data.ctl" Type="VI" URL="../Typedefs/Measurement.PhotocurrentMapping.Configured--Data.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%2!!!!"Q!61!I!$FAA6G&amp;M&gt;75M)(6O;82T!!!61!I!$FEA6G&amp;M&gt;75M)(6O;82T!!!.1!-!"VAA37ZE:8A!$5!$!!&gt;:)%FO:'6Y!"&amp;!#A!+1X6S=G6O&gt;#QA11!!$U!+!!F.97&gt;O;82V:'5!J1$R!!!!!!!!!!)H476B=X6S:7VF&lt;H1O5'BP&gt;'^D&gt;8*S:7ZU47&amp;Q='FO:SZM&gt;G.M98.T.%VF98.V=G6N:7ZU,F"I&lt;X2P9X6S=G6O&gt;%VB=("J&lt;G=O1W^O:GFH&gt;8*F:#UN2'&amp;U93ZD&gt;'Q!1%"1!!9!!!!"!!)!!Q!%!!5I476B=X6S:7VF&lt;H1O5'BP&gt;'^D&gt;8*S:7ZU47&amp;Q='FO:SZ.:7&amp;T&gt;8*F:!!!!1!'!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
