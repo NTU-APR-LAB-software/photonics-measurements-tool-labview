@@ -60,6 +60,8 @@
 				</Item>
 				<Item Name="Load Dynamic Dependency.vi" Type="VI" URL="../Utilities/Load Dynamic Dependency.vi"/>
 				<Item Name="Measurement Launcher.vi" Type="VI" URL="../Utilities/Measurement Launcher.vi"/>
+				<Item Name="Create Linear Vector by Step.vi" Type="VI" URL="../Utilities/Create Linear Vector by Step.vi"/>
+				<Item Name="Create Linear Vector by Samples.vi" Type="VI" URL="../Utilities/Create Linear Vector by Samples.vi"/>
 				<Item Name="Create Linear Vector.vi" Type="VI" URL="../Utilities/Create Linear Vector.vi"/>
 			</Item>
 			<Item Name="Free" Type="Folder">
@@ -87,6 +89,7 @@
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
 		<Item Name="Create Image Manualy.vi" Type="VI" URL="../../tests/Intensity/Create Image Manualy.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../../tests/Multiplot XY Graph/Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
