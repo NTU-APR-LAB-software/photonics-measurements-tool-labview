@@ -88,7 +88,6 @@
 		</Item>
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
-		<Item Name="Create Image Manualy.vi" Type="VI" URL="../../tests/Intensity/Create Image Manualy.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../../tests/Multiplot XY Graph/Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
