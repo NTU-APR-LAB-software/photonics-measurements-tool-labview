@@ -89,7 +89,6 @@
 		<Item Name="settings.ini" Type="Document" URL="../settings.ini"/>
 		<Item Name="Laser Measurement Tool.vi" Type="VI" URL="../Laser Measurement Tool.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../../tests/Multiplot XY Graph/Test.vi"/>
-		<Item Name="ColorBar Indicator Control.ctl" Type="VI" URL="../Controls/ColorBar Indicator Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
