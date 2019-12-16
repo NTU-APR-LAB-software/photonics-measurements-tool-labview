@@ -59,6 +59,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 			</Item>
+			<Item Name="Plot Data--Cluster.ctl" Type="VI" URL="../Typedefs/Plot Data--Cluster.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			</Item>
 		</Item>
 		<Item Name="PrivateData--Cluster.ctl" Type="VI" URL="../Typedefs/PrivateData--Cluster.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
@@ -113,7 +122,7 @@
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="2D Array Normalize.vi" Type="VI" URL="../Utilities/2D Array Normalize.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$.!!!!#1!%!!!!"1!+!!!;1%!!!P``````````!!%*18*S98EA&lt;X6U!!V!!Q!'2G&amp;D&gt;'^S!!!.1!I!"UVB?'FN&gt;7U!$5!+!!&gt;.;7ZJ&lt;86N!!V!#A!(4H6N:8*J9Q!;1%!!!P``````````!!9)18*S98EA;7Y!!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!Q!!!!1!"1!(!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!)+!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$.!!!!#1!%!!!!"1!+!!!;1%!!!P``````````!!%*18*S98EA&lt;X6U!!V!!Q!'2G&amp;D&gt;'^S!!!.1!I!"UVB?'FN&gt;7U!$5!+!!&gt;.;7ZJ&lt;86N!!V!#A!(4H6N:8*J9Q!;1%!!!P``````````!!9)18*S98EA;7Y!!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!Q!!!!1!"1!(!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!)+!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>

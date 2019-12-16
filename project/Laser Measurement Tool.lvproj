@@ -251,6 +251,7 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tree Create Item With Symbol and Color.vi" Type="VI" URL="../Utilities/Tree Create Item With Symbol and Color.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
