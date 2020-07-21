@@ -1,0 +1,29 @@
+Dear Alex,
+
+Hope you have been well during this difficult time.
+
+I would like to add one more functionality to our existing LabView code. Current sequence is:
+   1) Change laser wavelength
+   2) Wait for a delay time
+   3) Obtain data from equipment
+   4) Change wavelength
+
+The revised sequence is:
+   1) Change laser wavelength
+   2) Change wavelength of spectrometer 
+   3) Wait for a delay time
+   4) Obtain data from equipment
+   5) Change wavelength
+
+
+For 2), I have obtained the relevant documents from manufacturer (https://www.dropbox.com/sh/ke3o3az69ms265f/AAAHDSBSJKzT-MS0Bug-8GKQa?dl=0). I can translate any part you require.
+
+Could you please let me know if you can help on this?
+
+A) I can pay you over UpWork
+B) I need this to be done in a week or so
+
+Please let me know what you think.
+
+Best regards,
+Donguk
