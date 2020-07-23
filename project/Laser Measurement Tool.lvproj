@@ -43,6 +43,9 @@
 			<Item Name="OPM.ThorlabsPM400.lvclass" Type="LVClass" URL="../Subsystems/OPM.ThorlabsPM400/OPM.ThorlabsPM400.lvclass"/>
 			<Item Name="OPM.Simulated.lvclass" Type="LVClass" URL="../Subsystems/OPM.Simulated/OPM.Simulated.lvclass"/>
 		</Item>
+		<Item Name="Monochromator" Type="Folder">
+			<Item Name="MC.lvclass" Type="LVClass" URL="../Subsystems/MC/MC/MC.lvclass"/>
+		</Item>
 		<Item Name="Optical Parametric Amplifier" Type="Folder">
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
 			<Item Name="OPA.OrpheusHP.lvclass" Type="LVClass" URL="../Subsystems/OPA.OrpheusHP/OPA.OrpheusHP.lvclass"/>
@@ -227,11 +230,11 @@
 				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
 				<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Get Resource Name.vi"/>
 				<Item Name="TLPM Find Resources.vi" Type="VI" URL="/&lt;instrlib&gt;/TLPM/TLPM.llb/TLPM Find Resources.vi"/>
-				<Item Name="Get Current.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree Control/Get Current.vi"/>
-				<Item Name="Item Add.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree Control/Item Add.vi"/>
-				<Item Name="Get Children.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree Control/Get Children.vi"/>
-				<Item Name="Get All.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree Control/Get All.vi"/>
-				<Item Name="Tree Empty.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree Control/Tree Empty.vi"/>
+				<Item Name="Get Current.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get Current.vi"/>
+				<Item Name="Item Add.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Item Add.vi"/>
+				<Item Name="Get Children.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get Children.vi"/>
+				<Item Name="Get All.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Get All.vi"/>
+				<Item Name="Tree Empty.vi" Type="VI" URL="/&lt;instrlib&gt;/Tree control/Tree Empty.vi"/>
 			</Item>
 			<Item Name="TLPM_32.dll" Type="Document" URL="TLPM_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -248,10 +251,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Tree Create Item With Symbol and Color.vi" Type="VI" URL="../Utilities/Tree Create Item With Symbol and Color.vi"/>
-			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="/C/Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="/C/Program Files (x86)/Thorlabs/Kinesis/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="/C/Program Files (x86)/Thorlabs/Kinesis/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
-			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="/C/Program Files (x86)/Thorlabs/Kinesis/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
+			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
