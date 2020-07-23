@@ -45,6 +45,7 @@
 		</Item>
 		<Item Name="Monochromator" Type="Folder">
 			<Item Name="MC.lvclass" Type="LVClass" URL="../Subsystems/MC/MC/MC.lvclass"/>
+			<Item Name="MC.DangwooOptron.lvclass" Type="LVClass" URL="../Subsystems/MC/MC.DangwooOptron/MC.DangwooOptron.lvclass"/>
 		</Item>
 		<Item Name="Optical Parametric Amplifier" Type="Folder">
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
