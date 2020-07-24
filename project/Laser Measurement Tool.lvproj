@@ -44,8 +44,8 @@
 			<Item Name="OPM.Simulated.lvclass" Type="LVClass" URL="../Subsystems/OPM.Simulated/OPM.Simulated.lvclass"/>
 		</Item>
 		<Item Name="Monochromator" Type="Folder">
-			<Item Name="MC.lvclass" Type="LVClass" URL="../Subsystems/MC/MC/MC.lvclass"/>
-			<Item Name="MC.DangwooOptron.lvclass" Type="LVClass" URL="../Subsystems/MC/MC.DangwooOptron/MC.DangwooOptron.lvclass"/>
+			<Item Name="MC.lvclass" Type="LVClass" URL="../Subsystems/MC/MC.lvclass"/>
+			<Item Name="MC.DangwooOptron.lvclass" Type="LVClass" URL="../Subsystems/MC.DangwooOptron/MC.DangwooOptron.lvclass"/>
 		</Item>
 		<Item Name="Optical Parametric Amplifier" Type="Folder">
 			<Item Name="OPA.lvclass" Type="LVClass" URL="../Subsystems/OPA/OPA.lvclass"/>
@@ -170,9 +170,9 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -255,10 +255,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Tree Create Item With Symbol and Color.vi" Type="VI" URL="../Utilities/Tree Create Item With Symbol and Color.vi"/>
-			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="/C/Program Files (x86)/Thorlabs/Kinesis/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="/C/Program Files (x86)/Thorlabs/Kinesis/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
 			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+			<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../Subsystems/MC/MC/Typedefs/Configuration--Cluster.ctl"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../data/Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
