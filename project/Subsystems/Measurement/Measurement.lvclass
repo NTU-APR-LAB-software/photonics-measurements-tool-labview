@@ -77,6 +77,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
+			<Item Name="Configuration.MC--Cluster.ctl" Type="VI" URL="../Typedefs/Configuration.MC--Cluster.ctl">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$B!!!!"1!-1#%'27ZB9GRF!!!31$$`````#5R*13".&lt;W2F&lt;!!71$$`````$6:*5U%A5G6T&lt;X6S9W5!31$R!!!!!!!!!!),4%F",GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!'E"1!!%!!AV$&lt;WZG;7&gt;V=G&amp;U;7^O!&amp;Q!]&gt;H/.19!!!!#%UVF98.V=G6N:7ZU,GRW9WRB=X-&gt;1W^O:GFH&gt;8*B&gt;'FP&lt;CZ.1SUN1WRV=X2F=CZD&gt;'Q!)E"1!!-!!!!"!!-21W^O:GFH&gt;8*B&gt;'FP&lt;CZ-35%!!1!%!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			</Item>
 		</Item>
 		<Item Name="Enums" Type="Folder">
 			<Item Name="Measurement.Type--Enum.ctl" Type="VI" URL="../Typedefs/Measurement.Type--Enum.ctl">
