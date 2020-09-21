@@ -67,6 +67,8 @@
 				<Item Name="Create Linear Vector by Step.vi" Type="VI" URL="../Utilities/Create Linear Vector by Step.vi"/>
 				<Item Name="Create Linear Vector by Samples.vi" Type="VI" URL="../Utilities/Create Linear Vector by Samples.vi"/>
 				<Item Name="Create Linear Vector.vi" Type="VI" URL="../Utilities/Create Linear Vector.vi"/>
+				<Item Name="Bool To Disabled.vi" Type="VI" URL="../Utilities/Bool To Disabled.vi"/>
+				<Item Name="Disabled And.vi" Type="VI" URL="../Utilities/Disabled And.vi"/>
 			</Item>
 			<Item Name="Free" Type="Folder">
 				<Item Name="Measurement.Free.lvclass" Type="LVClass" URL="../Subsystems/Measurement.Free/Measurement.Free.lvclass"/>
