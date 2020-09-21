@@ -1,19 +1,16 @@
 Dear Alex,
 
- 
-
 Thank you for your time and effort. The program works very well and your labview can improve our experiment efficiency.
 
- 
+ Last Thursday we preview all functions and there are some minor points that we want to request. We would be glad if you help us update the labview program.
 
-Last Thursday we preview all functions and there are some minor points that we want to request. We would be glad if you help us update the labview program.
+    ON/OFF switches for OPA, monochromator, and XYZ controller: In the current version, there are ON/OFF switch buttons on SMU, LIA and OPM only. 
+We would liked to put ON/OFF switches on OPA, monochromator, and XYZ controller as well (in all 4 modes).
 
-    ON/OFF switches for OPA, monochromator, and XYZ controller: In the current version, there are ON/OFF switch buttons on SMU, LIA and OPM only. We would liked to put ON/OFF switches on OPA, monochromator, and XYZ controller as well (in all 4 modes).
     Wavelength offset between OPA and monochromator: We would like to monitor wheter the wavelength offset between OPA and monochromator is set properly during measurement.
-    Allowing to change the delay time in wavelength sweep mode: In the wavelength sweep mode, we cannot change the delay time. We would like to change the delay time for faster measurement.
 
+    Allowing to change the delay time in wavelength sweep mode: In the wavelength sweep mode, we cannot change the delay time. We would like to change the delay time for faster measurement.
  
 
 If you are having trouble understanding my explanation, please let me know. I will explain in more detail to help you understand.
-
 Thank you very much and I look forward your reply!
