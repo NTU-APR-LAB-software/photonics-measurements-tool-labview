@@ -257,12 +257,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Tree Create Item With Symbol and Color.vi" Type="VI" URL="../Utilities/Tree Create Item With Symbol and Color.vi"/>
-			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="/D/upwork/Laser Measurement Tool/Laser/project/data/Thorlabs.MotionControl.Controls.dll"/>
-			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="/D/upwork/Laser Measurement Tool/Laser/project/data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
-			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="/D/upwork/Laser Measurement Tool/Laser/project/data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 			<Item Name="VIE - TEMPLATE - UI State Machine with Menubar.rtm" Type="Document" URL="/C/Program Files (x86)/National Instruments/ES Library Revisions/ES Library Rev 7.0/Templates/VIE - TEMPLATE - UI State Machine with Menubar.rtm"/>
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../data/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
+			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Measurement Tool" Type="EXE">
