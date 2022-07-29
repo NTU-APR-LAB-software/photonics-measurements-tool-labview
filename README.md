@@ -1,4 +1,4 @@
-# Laser
+# Photonics Measurements Tool
 
 ![Main](https://github.com/NTU-APR-LAB-software/Laser/blob/develop/documentation/img/main.png)
 
