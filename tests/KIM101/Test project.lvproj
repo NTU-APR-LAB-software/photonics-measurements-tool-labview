@@ -71,10 +71,12 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../Thorlabs.MotionControl.Controls.dll"/>
-			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
-			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
 			<Item Name="CallBack.vi" Type="VI" URL="../CallBack.vi"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="/D/upwork/Laser Measurement Tool/Laser/tests/KIM101/Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="/D/upwork/Laser Measurement Tool/Laser/tests/KIM101/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
+			<Item Name="Thorlabs.MotionControl.DeviceManagerCLI.dll" Type="Document" URL="../../../project/data/Thorlabs.MotionControl.DeviceManagerCLI.dll"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../../../project/data/Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="Thorlabs.MotionControl.KCube.InertialMotorCLI.dll" Type="Document" URL="../../../project/data/Thorlabs.MotionControl.KCube.InertialMotorCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
