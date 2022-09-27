@@ -1,3 +1,7 @@
+# Ignore files that stored in archives
+documentation/PicoHarp 300/PH300 PHLib v3.0.0.3/
+documentation/PicoHarp 300/PicoHarp 300 v3.0.0.3/
+
 # Libraries
 *.lvlibp
 *.llb
